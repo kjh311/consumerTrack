@@ -1,1 +1,15 @@
 @import 'reset';
+
+// COLORS
+$green-font: #79b74d;
+$light-font: #e0e0e0;
+$dark-font: #4b4b4b;
+$red-font: #d90122;
+
+.mockup{
+	// display: absolute;
+	margin: auto;
+  position: absolute;
+  top: 0; left: 0;  right: 0;
+  opacity: 0.4;
+}
