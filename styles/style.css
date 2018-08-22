@@ -55,11 +55,11 @@ body {
   color: #4b4b4b; }
 
 .light-font {
-  color: #e0e0e0; }
+  color: #858585; }
 
 .first {
   height: 73px;
-  border-bottom: solid #e0e0e0 2px; }
+  border-bottom: solid #858585 2px; }
   .first #blooom-logo {
     top: 10px;
     left: 54px; }
@@ -75,7 +75,8 @@ body {
   top: 0;
   left: 0;
   right: 5px;
-  opacity: 0.4; }
+  opacity: 0.4;
+  z-index: 10; }
 
 .second {
   height: 810px;
@@ -85,18 +86,66 @@ body {
   left: 0;
   right: 0;
   width: 1093px;
-  border-bottom: solid #e0e0e0 1px;
+  border-bottom: solid #858585 1px;
   text-align: center; }
   .second .form {
     position: relative;
     top: 67px;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #858585;
     width: 489px;
-    height: 633px; }
+    height: 633px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); }
+    .second .form select {
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      appearance: none;
+      outline: none; }
+    .second .form .alarm-font {
+      display: inline-block;
+      font-size: 1.07em;
+      margin-top: 40px;
+      font-weight: 500; }
     .second .form .born-on {
       display: inline-block;
       margin-top: 40px;
       font-weight: 500; }
+    .second .form .drop {
+      background: transparent !important;
+      margin-top: 12px;
+      height: 43px;
+      border: 1px solid #858585 !important;
+      color: #858585;
+      font-style: italic;
+      font-size: 1.2em;
+      padding-left: 6px; }
+    .second .form .fa-angle-down {
+      position: absolute;
+      color: #858585;
+      display: inline-block;
+      margin-top: 17px;
+      z-index: -100; }
+    .second .form .fa1 {
+      margin-left: 118px; }
+    .second .form .fa2 {
+      margin-left: 55px; }
+    .second .form .fa3 {
+      margin-left: 65px; }
+    .second .form .fa4 {
+      margin-left: 49px; }
+    .second .form .month-drop {
+      width: 147px;
+      margin-left: 4px; }
+    .second .form .day-drop {
+      margin-left: 4px;
+      width: 78px; }
+    .second .form .year-drop {
+      margin-left: 3px;
+      width: 90px; }
+    .second .form .retire-drop {
+      margin-top: 10px;
+      width: 78px;
+      font-style: normal;
+      padding-left: 13px; }
     .second .form .esp {
       font-size: 2em;
       font-weight: 700;
@@ -104,6 +153,17 @@ body {
       margin-right: 50px;
       margin-top: 42px;
       line-height: 1.3; }
+    .second .form .start-now {
+      margin-top: 16px;
+      height: 49px;
+      width: 172px;
+      border-radius: 5px;
+      color: white;
+      background: #79b74d;
+      font-size: 1.3em;
+      outline: none;
+      font-weight: 200;
+      letter-spacing: 1.7px; }
     .second .form .first-name-form {
       margin-top: 10px;
       width: 400px;
@@ -111,7 +171,7 @@ body {
       border-radius: 5px;
       outline: none;
       text-align: center;
-      border: 1px solid #e0e0e0; }
+      border: 1px solid #858585; }
     .second .form .name-form {
       margin-top: 40px; }
     .second .form .name-font {
