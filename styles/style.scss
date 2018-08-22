@@ -2,15 +2,17 @@
 
 // COLORS
 $green-font: #79b74d;
-$light-font: #858585;
+$light-font: #a7a7a7;
+$medium-font: #838383;
 $dark-font: #4b4b4b;
 $red-font: #d90122;
 
 //FONTS
-$ariel: "Arial", Helvetica, sans-serif;
+$open:  'Open Sans', sans-serif;
 
 body{
 	font-size: 16px;
+	font-family: $open;
 }
 
 .container-fluid{
@@ -25,9 +27,17 @@ body{
 	color: $light-font;
 }
 
+.visible{
+	display: initial;
+}
+
+.hidden{
+	display: none;
+}
+
 .first{
 	height: 73px;
-	border-bottom: solid $light-font 2px;
+	border-bottom: solid $light-font 1px;
 		#blooom-logo{
 			top: 10px;
 			left: 54px;
@@ -64,13 +74,17 @@ body{
 	width: 1093px;
 	border-bottom: solid $light-font 1px;
 	text-align: center;
+		.form-wrapper{
+			margin-left: -15px;
+			// margin-top: -3px;
+		}
 		.form{
 			position: relative;
 			top: 67px;
 			border: 1px solid $light-font;
 			width: 489px;
 			height: 633px;
-			box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+			box-shadow: 2px 2px 2px rgba(0,0,0,0.05);
 				select {
 				    // border: 0 !important;
 				    -moz-appearance: none;
@@ -153,6 +167,7 @@ body{
 					height: 49px;
 					width: 172px;
 					border-radius: 5px;
+					border: 1px solid $green-font;
 					color: white;
 					background: $green-font;
 					font-size: 1.3em;
@@ -163,6 +178,7 @@ body{
 				.first-name-form{
 					margin-top: 10px;
 					width: 400px;
+					background-color: transparent;
 					height: 46px;
 					border-radius: 5px;
 					outline: none;
@@ -178,5 +194,174 @@ body{
 					font-size: 1.15em;
 				}
 		}
+		.checkup-wrapper{
+			// border: 2px solid red;
+			height: 635px;
+			width: 200px;
+			margin-top: 68px;
+			text-align: left;
+			// position: relative;
+				.checkup-headline{
+					color: $dark-font;
+					font-size: 4.4em;
+					
+					margin-left: 17px;
+					line-height: 1.07;
+					margin-top: 35px;
+						.start{
+							letter-spacing: 3px;
+						}
+						.free{
+							letter-spacing: 2px;
+						}
+				}
+				.stacks{
+					margin-left: 17px;
+					font-size: 1.3em;
+					margin-top: -13px;
+					color: $light-font;
+				}
+				.pig-logo{
+					// position: absolute;
+					display: block;
+    				// margin-left: auto;
+    				margin-right: auto;
+    				margin-top: 63px;
+    				margin-left: 48px;
+				}
+		}
+}
+
+.third{
+	margin-left: 57px;
+	margin-right: 55px;
+	margin-top: 107px;
+	height: 385px;
+	border-bottom: 1px solid $light-font;
+		a{
+			color: $green-font;
+		}
+		.disclaimer-header{
+			font-size: 2em;
+		}
+		.disclaimer-text{
+			margin-top: 23px;
+			line-height: 28px;
+			color: $light-font;
+		}
+}
+
+.fourth{
+	margin: 0 auto;
+  	text-align: center;
+  	border-bottom: 1px solid $light-font;
+  	width: 1090px;
+  	color: $dark-font;
+  		.over{
+  			font-size: 2em;
+  		}
+  		.over1{
+  			// position: relative;
+  			margin-top: 114px;
+  		}
+  		.over2{
+  			margin-top: 70px;
+  		}
+  		.large{
+  			font-size: 7em;
+  			font-weight: 500;
+  			
+
+  		}
+  		.billion{
+  			margin-top: -15px;
+  			margin-left: 24px;
+  			letter-spacing: 3.5px;
+  		}
+  		.exponent{
+  			color: $light-font;
+  			font-size: 0.5em;
+  			position: relative;
+  			top: -52px;
+  			left: -7px;
+  		}
+  		.assets{
+  			font-size: 1.95em;
+  			margin-top: 31px;
+  			letter-spacing: 1.5px;
+  			padding-bottom: 58px;
+  		}
+  		.underline1{
+  			border-bottom: 1px solid $light-font;
+  			width: 390px;
+  			position: relative;
+  			margin: 0 auto;
+  		}
+  		.underline2{
+  			border-bottom: 1px solid $light-font;
+  			width: 1090px;
+  			position: relative;
+  			margin: 0 auto;
+  		}
+  		.hundred-thousand{
+  			letter-spacing: 1.7px;
+  			margin-left: 25px;
+  			margin-top: -10px;
+  		}
+  		.exponent2{
+  			top: -65px;
+  			left: 6px;
+  		}
+  		.analyzed{
+  			font-size: 1.95em;
+  			margin-top: 23px;
+  			letter-spacing: 0.6px;
+  			padding-bottom: 100px
+  		}
+}
+
+.fifth{
+	margin: 0 auto;
+  	text-align: center;
+  	border-bottom: 1px solid $light-font;
+  	width: 1090px;
+  	color: $dark-font;
+  	padding-bottom: 90px;
+  		ul{
+  			margin-top: 50px;
+
+  		}
+  		li{
+  			display: inline-block;
+  			margin-left: 51px;
+  			margin-right: 51px;
+  		}
+  		.employees-heading{
+  			font-size: 2.7em;
+  			font-weight: 500;
+  			margin-top: 97px;
+  			letter-spacing: 1.4px;
+  		}
+}
+
+footer{
+	margin: 0 auto;
+  	text-align: center;
+  	color: $light-font;
+  	padding-bottom: 30px;
+  		.copywrite{
+  			margin-left: -6px;
+  			margin-top: 42px;
+  			letter-spacing: 0.1px;
+  			font-size: 0.7em;
+  				.copy-symbol{
+  					font-size: 1.4em;
+  				}
+  		}
+  		.small-text{
+  			margin-left: 945px;
+  			font-size: .7em;
+  			margin-top: -67px;
+  		}
 }
 
