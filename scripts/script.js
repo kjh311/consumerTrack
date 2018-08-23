@@ -1,6 +1,6 @@
 
 
-function validateForm() {
+function validateNameForm() {
 //  var firstForm = document.getElementByClassName("name-form-wrapper");
 var x = document.getElementById("name-form-wrapper");
 // alert("asdf")
@@ -13,6 +13,15 @@ var x = document.getElementById("name-form-wrapper");
 
     // alert(x.classList.contains("hidden"))
 
+}
+
+
+
+
+function validateEmailForm(){
+
+
+	
 }
 
 

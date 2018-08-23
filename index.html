@@ -16,7 +16,9 @@
 </head>
 
 <body>
-    <img class="mockup" src="assets/Desktop_Email.jpg" alt="">
+    <!-- <img class="mockup" src="assets/Desktop_Email.jpg" alt=""> -->
+
+    
     <div class="container-fluid">
         <div class="first">
             <div class="row">
@@ -32,14 +34,12 @@
         <div class="second">
             <div class="row">
                 <div class="form-wrapper col-xl-6">
-                    <div class="form">
+                    <div class="main-form">
                         <div id="name-form-wrapper" class="name-form-wrapper hidden">
                             <p class="dark-font esp">We'd fill this out for you, but we don't have E.S.P.</p>
-                            <form class="name-form"  name="infoForm" onsubmit="validateForm();return false;">
+                            <form class="name-form"  name="infoForm" onsubmit="validateNameForm();return false;">
                                 <span class="light-font name-font">My first name is...</span>
                                 </br>
-
-                               
 
                                 <input class="first-name-form" type="text" name="firstname" required  pattern="[A-Za-z]+" oninvalid="setCustomValidity('Only enter letters and no spaces please')" onchange="try{setCustomValidity('')}catch(e){}" />
                                 <br>
@@ -265,8 +265,29 @@
                         </form>
                     </div>
                     <!-- name-form-wrapper -->
+
+
+
+                    <div id="email-form-wrapper">
+
+                	<p class="first-thing">First things first, let's make sure we keep you safe.</p>
+                	<p class="email-form-text">Why do you need to create an account?</br> Easy. Safety first kids. Plus, if you get distracted (i.e. your boss walks past your desk) you can pick up where you left off.</p>
+
+                	<form class="email-form" onsubmit="return validateEmailForm()">
+
+                		<input class="email-input" type="email" name="emailForm" required placeholder="Email address">
+                	</br>
+                		<input class="email-submit-button" type="submit" value="Next">
+                		<p class="have-account">Allready have an account? <a class="sign-in" href="">Sign in</a></p>
+                		
+                	</form>
+
+
+                	
+                </div><!-- email-form-wrapper -->
                 </div>
-                <!-- form -->
+                <!-- main-form -->
+
             </div>
             <!-- form-wrapper -->
             <div class="checkup-wrapper col-xl-6 visible">

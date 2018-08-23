@@ -47,7 +47,8 @@ table {
 
 body {
   font-size: 16px;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  color: #4b4b4b; }
 
 .container-fluid {
   width: 1230px !important; }
@@ -57,9 +58,6 @@ body {
 
 .light-font {
   color: #a7a7a7; }
-
-.below {
-  z-index: -100; }
 
 .fadeOut {
   opacity: 0;
@@ -73,7 +71,7 @@ body {
 
 .first {
   height: 73px;
-  border-bottom: solid #a7a7a7 1px; }
+  border-bottom: solid #d0d0d0 1px; }
   .first #blooom-logo {
     top: 10px;
     left: 54px; }
@@ -100,80 +98,80 @@ body {
   left: 0;
   right: 0;
   width: 1093px;
-  border-bottom: solid #a7a7a7 1px;
+  border-bottom: solid #d0d0d0 1px;
   text-align: center; }
   .second .form-wrapper {
     margin-left: -15px; }
   .second .name-form-wrapper {
     opacity: 1;
     transition: opacity 0.2s linear; }
-  .second .form {
+  .second .main-form {
     position: relative;
     top: 67px;
-    border: 1px solid #a7a7a7;
+    border: 1px solid #d0d0d0;
     width: 489px;
     height: 633px;
     -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.05);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.05); }
-    .second .form select {
+    .second .main-form select {
       -moz-appearance: none;
       -webkit-appearance: none;
       appearance: none;
       outline: none; }
-    .second .form .alarm-font {
+    .second .main-form .alarm-font {
       display: inline-block;
       font-size: 1.07em;
       margin-top: 40px;
       font-weight: 500; }
-    .second .form .born-on {
+    .second .main-form .born-on {
       display: inline-block;
       margin-top: 40px;
       font-weight: 500; }
-    .second .form .drop {
+    .second .main-form .drop {
       background: transparent !important;
       margin-top: 12px;
       height: 43px;
-      border: 1px solid #a7a7a7 !important;
+      border: 1px solid #d0d0d0 !important;
       color: #a7a7a7;
       font-style: italic;
       font-size: 1.2em;
       padding-left: 6px; }
-    .second .form .fa-angle-down {
+    .second .main-form .fa-angle-down {
       position: absolute;
       color: #a7a7a7;
       display: inline-block;
       margin-top: 17px;
       z-index: -100; }
-    .second .form .fa1 {
+    .second .main-form .fa1 {
       margin-left: 118px; }
-    .second .form .fa2 {
+    .second .main-form .fa2 {
       margin-left: 55px; }
-    .second .form .fa3 {
+    .second .main-form .fa3 {
       margin-left: 65px; }
-    .second .form .fa4 {
+    .second .main-form .fa4 {
       margin-left: 49px; }
-    .second .form .month-drop {
+    .second .main-form .month-drop {
       width: 147px;
       margin-left: 4px; }
-    .second .form .day-drop {
+    .second .main-form .day-drop {
       margin-left: 4px;
       width: 78px; }
-    .second .form .year-drop {
+    .second .main-form .year-drop {
       margin-left: 3px;
       width: 90px; }
-    .second .form .retire-drop {
+    .second .main-form .retire-drop {
       margin-top: 10px;
       width: 78px;
       font-style: normal;
       padding-left: 13px; }
-    .second .form .esp {
+    .second .main-form .esp {
       font-size: 2em;
       font-weight: 700;
       margin-left: 50px;
       margin-right: 50px;
       margin-top: 42px;
       line-height: 1.3; }
-    .second .form .start-now {
+    .second .main-form .start-now {
       margin-top: 16px;
       height: 49px;
       width: 172px;
@@ -185,7 +183,7 @@ body {
       outline: none;
       font-weight: 200;
       letter-spacing: 1.7px; }
-    .second .form .first-name-form {
+    .second .main-form .first-name-form {
       margin-top: 10px;
       width: 400px;
       background-color: transparent;
@@ -193,12 +191,12 @@ body {
       border-radius: 5px;
       outline: none;
       text-align: center;
-      border: 1px solid #a7a7a7; }
-    .second .form .name-form {
+      border: 1px solid #d0d0d0; }
+    .second .main-form .name-form {
       margin-top: 40px; }
-    .second .form .name-form:valid .start-now {
+    .second .main-form .name-form:valid .start-now {
       background: #79b74d; }
-    .second .form .name-font {
+    .second .main-form .name-font {
       font-size: 1.15em; }
   .second .checkup-wrapper {
     height: 635px;
@@ -225,13 +223,63 @@ body {
       margin-right: auto;
       margin-top: 63px;
       margin-left: 48px; }
+  .second #email-form-wrapper {
+    margin-left: 35px;
+    margin-right: 35px; }
+    .second #email-form-wrapper .first-thing {
+      margin-top: 38px;
+      font-size: 1.9em;
+      letter-spacing: 1.3px;
+      line-height: 43px;
+      color: #4b4b4b; }
+    .second #email-form-wrapper .email-form-text {
+      color: #a7a7a7;
+      font-size: 1.2em;
+      margin-top: -3px;
+      line-height: 29px;
+      font-weight: 100; }
+    .second #email-form-wrapper .email-input {
+      margin-top: 54px;
+      color: #a7a7a7;
+      height: 52px;
+      width: 400px;
+      margin-left: 5px;
+      border-radius: 5px;
+      text-align: center;
+      border: 1px solid #d0d0d0;
+      font-size: 1.15em;
+      font-weight: 100;
+      outline-color: transparent;
+      outline-style: none; }
+    .second #email-form-wrapper .email-input::-webkit-input-placeholder {
+      color: #d0d0d0; }
+  .second .email-submit-button {
+    outline-color: transparent;
+    outline-style: none;
+    margin-top: 72px;
+    width: 175px;
+    height: 49px;
+    margin-left: 2px;
+    border-radius: 5px;
+    background: #d0d0d0;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 0.7px;
+    font-size: 1.4em;
+    border: 1px solid #d0d0d0; }
+  .second .have-account {
+    margin-top: 9px;
+    color: #a7a7a7;
+    font-size: 0.84em; }
+    .second .have-account .sign-in {
+      color: #79b74d; }
 
 .third {
   margin-left: 57px;
   margin-right: 55px;
   margin-top: 107px;
   height: 385px;
-  border-bottom: 1px solid #a7a7a7; }
+  border-bottom: 1px solid #d0d0d0; }
   .third a {
     color: #79b74d; }
   .third .disclaimer-header {
@@ -244,7 +292,7 @@ body {
 .fourth {
   margin: 0 auto;
   text-align: center;
-  border-bottom: 1px solid #a7a7a7;
+  border-bottom: 1px solid #d0d0d0;
   width: 1090px;
   color: #4b4b4b; }
   .fourth .over {
@@ -272,12 +320,12 @@ body {
     letter-spacing: 1.5px;
     padding-bottom: 58px; }
   .fourth .underline1 {
-    border-bottom: 1px solid #a7a7a7;
+    border-bottom: 1px solid #d0d0d0;
     width: 390px;
     position: relative;
     margin: 0 auto; }
   .fourth .underline2 {
-    border-bottom: 1px solid #a7a7a7;
+    border-bottom: 1px solid #d0d0d0;
     width: 1090px;
     position: relative;
     margin: 0 auto; }
@@ -297,7 +345,7 @@ body {
 .fifth {
   margin: 0 auto;
   text-align: center;
-  border-bottom: 1px solid #a7a7a7;
+  border-bottom: 1px solid #d0d0d0;
   width: 1090px;
   color: #4b4b4b;
   padding-bottom: 90px; }

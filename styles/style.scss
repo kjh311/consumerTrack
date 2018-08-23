@@ -6,6 +6,7 @@ $light-font: #a7a7a7;
 $medium-font: #838383;
 $dark-font: #4b4b4b;
 $red-font: #d90122;
+$border: #d0d0d0;
 
 //FONTS
 $open:  'Open Sans', sans-serif;
@@ -13,6 +14,7 @@ $open:  'Open Sans', sans-serif;
 body{
 	font-size: 16px;
 	font-family: $open;
+	color: $dark-font;
 }
 
 .container-fluid{
@@ -27,13 +29,9 @@ body{
 	color: $light-font;
 }
 
-.below{
-	z-index: -100;
-}
-
 .fadeOut{
 	opacity: 0;
-  transition: opacity .2s linear;
+  	transition: opacity .2s linear;
 }
 
 .visible{
@@ -46,7 +44,7 @@ body{
 
 .first{
 	height: 73px;
-	border-bottom: solid $light-font 1px;
+	border-bottom: solid $border 1px;
 		#blooom-logo{
 			top: 10px;
 			left: 54px;
@@ -81,7 +79,7 @@ body{
 	position: relative;
 	top: 0; left: 0;  right: 0;
 	width: 1093px;
-	border-bottom: solid $light-font 1px;
+	border-bottom: solid $border 1px;
 	text-align: center;
 		.form-wrapper{
 			margin-left: -15px;
@@ -91,10 +89,10 @@ body{
 			opacity: 1;
   			transition: opacity 0.2s linear;
 		}
-		.form{
+		.main-form{
 			position: relative;
 			top: 67px;
-			border: 1px solid $light-font;
+			border: 1px solid $border;
 			width: 489px;
 			height: 633px;
 			-webkit-box-shadow: 2px 2px 2px rgba(0,0,0,0.05);
@@ -122,7 +120,7 @@ body{
 					background: transparent !important;
 					margin-top: 12px;
 					height: 43px;
-					border: 1px solid $light-font !important;
+					border: 1px solid $border !important;
 					color: $light-font;
 					font-style: italic;
 					font-size: 1.2em;
@@ -197,7 +195,7 @@ body{
 					border-radius: 5px;
 					outline: none;
 					text-align: center;
-					border: 1px solid $light-font;
+					border: 1px solid $border;
 					// border: 1px solid #light-font;
 				}
 				// .first-name-form:invalid{
@@ -251,6 +249,67 @@ body{
     				margin-left: 48px;
 				}
 		}
+		#email-form-wrapper{
+			// border: 2px solid red;
+			// position: relative;
+			// top: 0;
+			margin-left: 35px;
+			margin-right: 35px;
+				.first-thing{
+					margin-top: 38px;
+					font-size: 1.9em;
+					letter-spacing: 1.3px;
+					line-height: 43px;
+					color: $dark-font;
+				}
+				.email-form-text{
+					color: $light-font;
+					font-size: 1.2em;
+					margin-top: -3px;
+					line-height: 29px;
+					font-weight: 100;
+					// letter-spacing: 0.3px;
+				}
+				.email-input{
+					margin-top: 54px;
+					color: $light-font;
+					height: 52px;
+					width: 400px;
+					margin-left: 5px;
+					border-radius: 5px;
+					text-align: center;
+					border: 1px solid $border;
+					font-size: 1.15em;
+					font-weight: 100;
+					outline-color: transparent;
+  					outline-style: none;
+				}
+				.email-input::-webkit-input-placeholder {
+				  color: $border;				}
+				}
+				.email-submit-button{
+					outline-color: transparent;
+  					outline-style: none;
+					margin-top: 72px;
+					width: 175px;
+					height: 49px;
+					margin-left: 2px;
+					border-radius: 5px;
+					background: $border;
+					color: white;
+					font-weight: 300;
+					letter-spacing: 0.7px;
+					font-size: 1.4em;
+					border: 1px solid $border;
+				}
+				.have-account{
+					margin-top: 9px;
+					color: $light-font;
+					font-size: 0.84em;
+						.sign-in{
+							color: $green-font;
+						}
+				}
 }
 
 .third{
@@ -258,7 +317,7 @@ body{
 	margin-right: 55px;
 	margin-top: 107px;
 	height: 385px;
-	border-bottom: 1px solid $light-font;
+	border-bottom: 1px solid $border;
 		a{
 			color: $green-font;
 		}
@@ -275,7 +334,7 @@ body{
 .fourth{
 	margin: 0 auto;
   	text-align: center;
-  	border-bottom: 1px solid $light-font;
+  	border-bottom: 1px solid $border;
   	width: 1090px;
   	color: $dark-font;
   		.over{
@@ -313,13 +372,13 @@ body{
   			padding-bottom: 58px;
   		}
   		.underline1{
-  			border-bottom: 1px solid $light-font;
+  			border-bottom: 1px solid $border;
   			width: 390px;
   			position: relative;
   			margin: 0 auto;
   		}
   		.underline2{
-  			border-bottom: 1px solid $light-font;
+  			border-bottom: 1px solid $border;
   			width: 1090px;
   			position: relative;
   			margin: 0 auto;
@@ -344,7 +403,7 @@ body{
 .fifth{
 	margin: 0 auto;
   	text-align: center;
-  	border-bottom: 1px solid $light-font;
+  	border-bottom: 1px solid $border;
   	width: 1090px;
   	color: $dark-font;
   	padding-bottom: 90px;
