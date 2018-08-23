@@ -178,7 +178,7 @@ body {
       border-radius: 5px;
       border: 1px solid rgba(0, 0, 0, 0);
       color: white;
-      background: #79b74d;
+      background: #d0d0d0;
       font-size: 1.3em;
       outline: none;
       font-weight: 200;
@@ -224,6 +224,7 @@ body {
       margin-top: 63px;
       margin-left: 48px; }
   .second #email-form-wrapper {
+    display: inline-block;
     margin-left: 35px;
     margin-right: 35px; }
     .second #email-form-wrapper .first-thing {
@@ -253,6 +254,8 @@ body {
       outline-style: none; }
     .second #email-form-wrapper .email-input::-webkit-input-placeholder {
       color: #d0d0d0; }
+  .second .email-form:valid .email-submit-button {
+    background: #79b74d; }
   .second .email-submit-button {
     outline-color: transparent;
     outline-style: none;

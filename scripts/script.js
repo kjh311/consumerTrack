@@ -2,14 +2,19 @@
 
 function validateNameForm() {
 //  var firstForm = document.getElementByClassName("name-form-wrapper");
-var x = document.getElementById("name-form-wrapper");
+var nameFormWrapper = document.getElementById("name-form-wrapper");
+var emailWrapper = document.getElementById("email-wrapper");
 // alert("asdf")
 // var x = 10;
 	
 	// alert(x)
-	x.className -= "visible";
+	nameFormWrapper.className -= "visible";
     // x.className += " fadeOut ";
-    x.className += " hidden ";
+    nameFormWrapper.className += " hidden ";
+
+    emailWrapper.className -= "hidden";
+    emailWrapper.className += "visible";
+
 
     // alert(x.classList.contains("hidden"))
 
@@ -21,7 +26,7 @@ var x = document.getElementById("name-form-wrapper");
 function validateEmailForm(){
 
 
-	
+
 }
 
 

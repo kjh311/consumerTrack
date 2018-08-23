@@ -181,7 +181,7 @@ body{
 					border-radius: 5px;
 					border: 1px solid rgba(0,0,0,0);
 					color: white;
-					background: $green-font;
+					background: $border;
 					font-size: 1.3em;
 					outline: none;
 					font-weight: 200;
@@ -196,8 +196,10 @@ body{
 					outline: none;
 					text-align: center;
 					border: 1px solid $border;
+
 					// border: 1px solid #light-font;
 				}
+			
 				// .first-name-form:invalid{
 				// 	border: 1px solid $red-font;
 				// }
@@ -253,6 +255,7 @@ body{
 			// border: 2px solid red;
 			// position: relative;
 			// top: 0;
+			display: inline-block;
 			margin-left: 35px;
 			margin-right: 35px;
 				.first-thing{
@@ -286,6 +289,9 @@ body{
 				}
 				.email-input::-webkit-input-placeholder {
 				  color: $border;				}
+				}
+				.email-form:valid .email-submit-button{
+					background: $green-font;
 				}
 				.email-submit-button{
 					outline-color: transparent;

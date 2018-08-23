@@ -18,7 +18,7 @@
 <body>
     <!-- <img class="mockup" src="assets/Desktop_Email.jpg" alt=""> -->
 
-    
+
     <div class="container-fluid">
         <div class="first">
             <div class="row">
@@ -35,13 +35,13 @@
             <div class="row">
                 <div class="form-wrapper col-xl-6">
                     <div class="main-form">
-                        <div id="name-form-wrapper" class="name-form-wrapper hidden">
+                        <div id="name-form-wrapper" class="name-form-wrapper visible">
                             <p class="dark-font esp">We'd fill this out for you, but we don't have E.S.P.</p>
                             <form class="name-form"  name="infoForm" onsubmit="validateNameForm();return false;">
                                 <span class="light-font name-font">My first name is...</span>
                                 </br>
 
-                                <input class="first-name-form" type="text" name="firstname" required  pattern="[A-Za-z]+" oninvalid="setCustomValidity('Only enter letters and no spaces please')" onchange="try{setCustomValidity('')}catch(e){}" />
+                                <input class="first-name-form" type="text" name="firstname" required  pattern="[A-Za-z]+" oninvalid="setCustomValidity('Please enter a first name. Only letters and no spaces')" onchange="try{setCustomValidity('')}catch(e){}" />
                                 <br>
                                 <span class="light-font born-on">I was born on...</span>
                                 </br>
@@ -260,14 +260,17 @@
                                     <option value="80">80</option>
                                 </select>
                         </div>
+                        <!-- name-form-wrapper -->
                         </br>
                         <input class="start-now" type="submit" value="Start Now" >
                         </form>
                     </div>
-                    <!-- name-form-wrapper -->
+                  
 
 
-
+                    <div id="email-wrapper" class="hidden">
+                    	
+                    
                     <div id="email-form-wrapper">
 
                 	<p class="first-thing">First things first, let's make sure we keep you safe.</p>
@@ -275,7 +278,7 @@
 
                 	<form class="email-form" onsubmit="return validateEmailForm()">
 
-                		<input class="email-input" type="email" name="emailForm" required placeholder="Email address">
+                		<input class="email-input" type="email" name="emailForm" required placeholder="Email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" oninvalid="setCustomValidity('Please enter a valid email address')" onchange="try{setCustomValidity('')}catch(e){}" required />
                 	</br>
                 		<input class="email-submit-button" type="submit" value="Next">
                 		<p class="have-account">Allready have an account? <a class="sign-in" href="">Sign in</a></p>
@@ -285,6 +288,7 @@
 
                 	
                 </div><!-- email-form-wrapper -->
+                </div>
                 </div>
                 <!-- main-form -->
 
