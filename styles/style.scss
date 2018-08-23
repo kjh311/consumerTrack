@@ -34,6 +34,10 @@ body{
   	transition: opacity .2s linear;
 }
 
+.invalid-form{
+	border-color: red;
+}
+
 .visible{
 	display: initial;
 }
@@ -307,6 +311,22 @@ body{
 					letter-spacing: 0.7px;
 					font-size: 1.4em;
 					border: 1px solid $border;
+				}
+				#account-exists{
+					position: relative;
+					color: $red-font;
+					margin-top: -178px;
+					margin-left: 10px;
+					letter-spacing: 0.1px;
+					font-size: 0.87em;
+						.sign-in{
+							color: $green-font;
+						}
+				}
+				.exclamation{
+					position: relative;
+					margin-top: -315px;
+					margin-right: 310px;
 				}
 				.have-account{
 					margin-top: 9px;

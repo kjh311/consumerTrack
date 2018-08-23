@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <!-- <img class="mockup" src="assets/Desktop_Email.jpg" alt=""> -->
+    <!-- <img class="mockup" src="assets/Desktop_Email_Error.jpg" alt=""> -->
 
 
     <div class="container-fluid">
@@ -35,7 +35,7 @@
             <div class="row">
                 <div class="form-wrapper col-xl-6">
                     <div class="main-form">
-                        <div id="name-form-wrapper" class="name-form-wrapper visible">
+                        <div id="name-form-wrapper" class="name-form-wrapper hidden">
                             <p class="dark-font esp">We'd fill this out for you, but we don't have E.S.P.</p>
                             <form class="name-form"  name="infoForm" onsubmit="validateNameForm();return false;">
                                 <span class="light-font name-font">My first name is...</span>
@@ -268,7 +268,7 @@
                   
 
 
-                    <div id="email-wrapper" class="hidden">
+                    <div id="email-wrapper" class="visible">
                     	
                     
                     <div id="email-form-wrapper">
@@ -276,12 +276,17 @@
                 	<p class="first-thing">First things first, let's make sure we keep you safe.</p>
                 	<p class="email-form-text">Why do you need to create an account?</br> Easy. Safety first kids. Plus, if you get distracted (i.e. your boss walks past your desk) you can pick up where you left off.</p>
 
-                	<form class="email-form" onsubmit="return validateEmailForm()">
+                	<form class="email-form" onsubmit="return validateEmailForm();return false;">
 
-                		<input class="email-input" type="email" name="emailForm" required placeholder="Email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" oninvalid="setCustomValidity('Please enter a valid email address')" onchange="try{setCustomValidity('')}catch(e){}" required />
+                		<input id="email-input" class="email-input" type="email" name="emailForm" required placeholder="Email address" onkeypress="checkInvalid()" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" oninvalid="setCustomValidity('Please enter a valid email address')" onchange="try{setCustomValidity('')}catch(e){}" />
                 	</br>
                 		<input class="email-submit-button" type="submit" value="Next">
                 		<p class="have-account">Allready have an account? <a class="sign-in" href="">Sign in</a></p>
+
+                		<div id="account-exists-wrapper" class="hidden">
+	                		<img class="exclamation" src="assets/exclamation.png" alt="">
+	                		<p id="account-exists">Looks like this account already exist, <a class="sign-in" href="" >Sign In.</a></p>
+                		</div>
                 		
                 	</form>
 
