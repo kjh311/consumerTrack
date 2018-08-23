@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <img class="mockup" src="assets/Desktop_Name2.jpg" alt="">
+    <!-- <img class="mockup" src="assets/Desktop_Name2.jpg" alt=""> -->
     <div class="container-fluid">
         <div class="first">
             <div class="row">
@@ -28,21 +28,25 @@
                 </div>
             </div>
         </div>
+
         <div class="second">
             <div class="row">
                 <div class="form-wrapper col-xl-6">
                     <div class="form">
-                        <div class="name-form-wrapper visible">
+                        <div id="name-form-wrapper" class="name-form-wrapper visible">
                             <p class="dark-font esp">We'd fill this out for you, but we don't have E.S.P.</p>
-                            <form class="name-form">
+                            <form class="name-form"  name="infoForm" onsubmit="validateForm();return false;">
                                 <span class="light-font name-font">My first name is...</span>
                                 </br>
-                                <input class="first-name-form" type="text" name="firstname">
+
+                               
+
+                                <input class="first-name-form" type="text" name="firstname" required  pattern="[A-Za-z]+" oninvalid="setCustomValidity('Only enter letters and no spaces please')" onchange="try{setCustomValidity('')}catch(e){}" />
                                 <br>
                                 <span class="light-font born-on">I was born on...</span>
                                 </br>
                                 <i class="fa fa1 fa-2x fa-angle-down" aria-hidden="true"></i>
-                                <select class="drop month-drop" name="month">
+                                <select class="drop month-drop" name="month"  oninvalid="setCustomValidity('Please select a month')" onchange="try{setCustomValidity('')}catch(e){}" required />
                                     <option style="display:none" disabled selected value> month </option>
                                     <option value="January">January</option>
                                     <option value="February">February</option>
@@ -57,10 +61,9 @@
                                     <option value="November">November</option>
                                     <option value="December">December</option>
                                 </select>
-                                </span>
-                                <span>
+                              
 									<i class="fa fa2 fa-2x fa-angle-down" aria-hidden="true"></i>
-									<select class="drop day-drop" name="day">
+									<select class="drop day-drop" name="day"  oninvalid="setCustomValidity('Please select a day')" onchange="try{setCustomValidity('')}catch(e){}" required />
 										<option  style="display:none" disabled selected value>  day </option>
 										<option value="1">1</option>
 										<option value="2">2</option>
@@ -94,10 +97,9 @@
 										<option value="30">30</option>
 										<option value="31">31</option>
 									</select>
-								</span>
-                                <span>
+								
 									<i class="fa fa3 fa-2x fa-angle-down" aria-hidden="true"></i>
-									<select class="drop year-drop" name="day">
+									<select class="drop year-drop" name="year"  oninvalid="setCustomValidity('Please select a year')" onchange="try{setCustomValidity('')}catch(e){}" required />
 										<option  style="display:none" disabled selected value>year</option>
 										<option value="2017">2017</option>
 										<option value="2016">2016</option>
@@ -223,7 +225,7 @@
 										<span class="light-font alarm-font">I'd like to smash my alarm clock (retire) at age...</span>
                                 </br>
                                 <i class="fa fa4 fa-2x fa-angle-down" aria-hidden="true"></i>
-                                <select class="drop retire-drop" name="retire">
+                                <select class="drop retire-drop" name="retire" required>
                                     <!-- <option  style="display:none" disabled selected value>  65 </option> -->
                                     <option value="50">50</option>
                                     <option value="51">51</option>
@@ -259,7 +261,7 @@
                                 </select>
                         </div>
                         </br>
-                        <input class="start-now" type="submit" value="Start Now">
+                        <input class="start-now" type="submit" value="Start Now" >
                         </form>
                     </div>
                     <!-- name-form-wrapper -->
@@ -319,6 +321,9 @@
         </script>
         <scriptsrc="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
             </script>
+
+
+
 </body>
 
 </html>

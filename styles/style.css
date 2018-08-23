@@ -58,6 +58,9 @@ body {
 .light-font {
   color: #a7a7a7; }
 
+.below {
+  z-index: -100; }
+
 .visible {
   display: initial; }
 
@@ -103,6 +106,7 @@ body {
     border: 1px solid #a7a7a7;
     width: 489px;
     height: 633px;
+    -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.05);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.05); }
     .second .form select {
       -moz-appearance: none;
@@ -167,7 +171,7 @@ body {
       height: 49px;
       width: 172px;
       border-radius: 5px;
-      border: 1px solid #79b74d;
+      border: 1px solid rgba(0, 0, 0, 0);
       color: white;
       background: #79b74d;
       font-size: 1.3em;
@@ -185,6 +189,8 @@ body {
       border: 1px solid #a7a7a7; }
     .second .form .name-form {
       margin-top: 40px; }
+    .second .form .name-form:valid .start-now {
+      background: #79b74d; }
     .second .form .name-font {
       font-size: 1.15em; }
   .second .checkup-wrapper {
