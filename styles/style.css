@@ -61,6 +61,10 @@ body {
 .below {
   z-index: -100; }
 
+.fadeOut {
+  opacity: 0;
+  transition: opacity .2s linear; }
+
 .visible {
   display: initial; }
 
@@ -100,6 +104,9 @@ body {
   text-align: center; }
   .second .form-wrapper {
     margin-left: -15px; }
+  .second .name-form-wrapper {
+    opacity: 1;
+    transition: opacity 0.2s linear; }
   .second .form {
     position: relative;
     top: 67px;

@@ -8,7 +8,8 @@ var x = document.getElementById("name-form-wrapper");
 	
 	// alert(x)
 	x.className -= "visible";
-    x.className += " hidden	";
+    // x.className += " fadeOut ";
+    x.className += " hidden ";
 
     // alert(x.classList.contains("hidden"))
 
