@@ -16,16 +16,16 @@
 </head>
 
 <body>
-    <img class="mockup" src="assets/Tablet_Name.jpg" alt="">
+    <!-- <img class="mockup" src="assets/Desktop_Email_Error.jpg" alt=""> -->
 
 
     <div class="container-fluid">
         <div class="first">
             <div class="row">
-                <div class="col">
+                <div class="col-xl-6">
                     <img class="top-logo" id="blooom-logo" src="assets/blooom-logo.svg" alt="">
                 </div>
-                <div class="col">
+                <div class="col-xl-6">
                     <img class="top-logo" id="banking-rates-logo" src="assets/logo-bankingRates.png" alt="">
                 </div>
             </div>
@@ -33,7 +33,7 @@
 
         <div class="second">
             <div class="row">
-                <div class="form-wrapper col-md-6 col-sm-12">
+                <div class="form-wrapper col-xl-6">
                     <div class="main-form">
                         <div id="name-form-wrapper" class="name-form-wrapper visible">
                             <p class="dark-font esp">We'd fill this out for you, but we don't have E.S.P.</p>
@@ -41,7 +41,7 @@
                                 <span class="light-font name-font">My first name is...</span>
                                 </br>
 
-                                <input class="first-name-form" type="text" name="firstname" required  pattern="[A-Za-z]+" oninvalid="setCustomValidity('Please enter a first name. Only letters and no spaces')" onchange="try{setCustomValidity('')}catch(e){}" / >
+                                <input class="first-name-form" type="text" name="firstname" required  pattern="[A-Za-z]+" oninvalid="setCustomValidity('Please enter a first name. Only letters and no spaces')" onchange="try{setCustomValidity('')}catch(e){}" />
                                 <br>
                                 <span class="light-font born-on">I was born on...</span>
                                 </br>
@@ -268,7 +268,7 @@
                   
 
 
-                    <div id="email-wrapper " class="hidden">
+                    <div id="email-wrapper" class="hidden">
                     	
                     
                     <div id="email-form-wrapper">
@@ -278,7 +278,7 @@
 
                 	<form class="email-form" onsubmit="return validateEmailForm();return false;">
 
-                		<input id="email-input" class="email-input" type="email" name="emailForm" required placeholder="Email address" onkeypress="checkDuplicateEmail()" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" oninvalid="setCustomValidity('Please enter a valid email address')" onchange="try{setCustomValidity('')}catch(e){}" />
+                		<input id="email-input" class="email-input" type="email" name="emailForm" required placeholder="Email address" onkeypress="checkInvalid()" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" oninvalid="setCustomValidity('Please enter a valid email address')" onchange="try{setCustomValidity('')}catch(e){}" />
                 	</br>
                 		<input class="email-submit-button" type="submit" value="Next">
                 		<p class="have-account">Allready have an account? <a class="sign-in" href="">Sign in</a></p>
@@ -299,16 +299,11 @@
 
             </div>
             <!-- form-wrapper -->
-            <div class="checkup-wrapper col-md-6 d-none d-md-block">
-            	<div class="check-wrapper-inner">
-            		
-            	
+            <div class="checkup-wrapper col-xl-6 visible">
                 <h2 class="checkup-headline"><span class="start">Start Your Truly</span> <span class="free">Free 401k</span> Check-Up Now</h2>
                 </br>
                 <p class="stacks">See how your 401k stacks up in minutes</p>
                 <img class="pig-logo" src="assets/pig-plain.png" alt="">
-            </div>
-            <!-- check-wrapper-inner -->
             </div>
             <!-- checkup-wrapper -->
         </div>
@@ -348,8 +343,6 @@
         <p class="small-text">1. Numbers as of 1/18/2018</p>
     </footer>
     </div>
-
-
     <!-- container -->
     <script src="scripts/script.js" type="text/javascript" charset="utf-8" async defer></script>
     <!-- BOOTSTRAP -->
