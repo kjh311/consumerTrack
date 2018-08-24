@@ -22,10 +22,10 @@
     <div class="container-fluid">
         <div class="first">
             <div class="row">
-                <div class="col-xl-6">
+                <div class="col">
                     <img class="top-logo" id="blooom-logo" src="assets/blooom-logo.svg" alt="">
                 </div>
-                <div class="col-xl-6">
+                <div class="col">
                     <img class="top-logo" id="banking-rates-logo" src="assets/logo-bankingRates.png" alt="">
                 </div>
             </div>
@@ -33,7 +33,7 @@
 
         <div class="second">
             <div class="row">
-                <div class="form-wrapper col-xl-6">
+                <div class="form-wrapper col-6">
                     <div class="main-form">
                         <div id="name-form-wrapper" class="name-form-wrapper visible">
                             <p class="dark-font esp">We'd fill this out for you, but we don't have E.S.P.</p>
@@ -278,7 +278,7 @@
 
                 	<form class="email-form" onsubmit="return validateEmailForm();return false;">
 
-                		<input id="email-input" class="email-input" type="email" name="emailForm" required placeholder="Email address" onkeypress="checkInvalid()" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" oninvalid="setCustomValidity('Please enter a valid email address')" onchange="try{setCustomValidity('')}catch(e){}" />
+                		<input id="email-input" class="email-input" type="email" name="emailForm" required placeholder="Email address" onkeypress="checkDuplicateEmail()" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" oninvalid="setCustomValidity('Please enter a valid email address')" onchange="try{setCustomValidity('')}catch(e){}" />
                 	</br>
                 		<input class="email-submit-button" type="submit" value="Next">
                 		<p class="have-account">Allready have an account? <a class="sign-in" href="">Sign in</a></p>
@@ -299,13 +299,16 @@
 
             </div>
             <!-- form-wrapper -->
-            <div class="checkup-wrapper col-xl-6 visible">
+            <div class="checkup-wrapper col-6 d-none d-lg-block">
+            	<div class="check-wrapper-inner">
                 <h2 class="checkup-headline"><span class="start">Start Your Truly</span> <span class="free">Free 401k</span> Check-Up Now</h2>
                 </br>
                 <p class="stacks">See how your 401k stacks up in minutes</p>
                 <img class="pig-logo" src="assets/pig-plain.png" alt="">
             </div>
             <!-- checkup-wrapper -->
+             <!-- check-wrapper-inner -->
+            </div>
         </div>
         <!-- row -->
     </div>
