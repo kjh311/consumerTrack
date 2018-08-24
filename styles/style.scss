@@ -8,6 +8,13 @@ $dark-font: #4b4b4b;
 $red-font: #d90122;
 $border: #d0d0d0;
 
+%red-border {
+  	box-sizing: border-box; 
+	outline-style: solid;
+    outline-color: red;
+    outline-width: medium;
+}
+
 //FONTS
 $open:  'Open Sans', sans-serif;
 
@@ -18,7 +25,23 @@ body{
 }
 
 .container-fluid{
-	width: 1230px !important;
+	max-width: 1230px !important;
+	// border: 2px solid red;
+	// @extend %red-border;
+ 
+	
+}
+.two{
+	// border: 2px solid red;
+	// @extend %red-border;
+	// @extend %red-border;
+ 
+}
+.one{
+	// border: 2px solid red;
+	
+ 
+
 }
 
 .dark-font{
@@ -48,6 +71,7 @@ body{
 
 .first{
 	height: 73px;
+	width: 100%;
 	border-bottom: solid $border 1px;
 		#blooom-logo{
 			top: 10px;
@@ -55,7 +79,7 @@ body{
 		}
 		#banking-rates-logo{
 			top: 20px;
-			left: 368px;
+			right: 54px;
 		}
 		.top-logo{
 			position: absolute;
@@ -78,27 +102,39 @@ body{
 .second{
 	// margin-top: 100px;
 	// height: 811px;
-	height: 810px;
+	// height: 810px;
+	padding-bottom: 174px;
 	margin: auto;
 	position: relative;
 	top: 0; left: 0;  right: 0;
-	width: 1093px;
+	// width: 1093px;
 	border-bottom: solid $border 1px;
 	text-align: center;
+	// @extend %red-border;
 		.form-wrapper{
-			margin-left: -15px;
+			// @extend %red-border;
+			// margin-left: -15px;
 			// margin-top: -3px;
+			// margin-left: 10px;
+			// width: 100%;
+			// height: 810px;
 		}
 		.name-form-wrapper{
 			opacity: 1;
   			transition: opacity 0.2s linear;
+
+
 		}
 		.main-form{
 			position: relative;
+			// @extend %red-border;
 			top: 67px;
 			border: 1px solid $border;
-			width: 489px;
-			height: 633px;
+			margin-left: 40px;
+			margin-right: 40px;
+			max-width: 489px;
+			// height: 633px;
+			padding-bottom: 60px;
 			-webkit-box-shadow: 2px 2px 2px rgba(0,0,0,0.05);
 			        box-shadow: 2px 2px 2px rgba(0,0,0,0.05);
 				select {
@@ -113,6 +149,7 @@ body{
 					font-size: 1.07em;
 					margin-top: 40px;
 					font-weight: 500;
+					max-width: 90%;
 				}
 				.born-on{
 					// position: relative;
@@ -194,6 +231,7 @@ body{
 				.first-name-form{
 					margin-top: 10px;
 					width: 400px;
+					max-width: 80%;
 					background-color: transparent;
 					height: 46px;
 					border-radius: 5px;
@@ -220,17 +258,25 @@ body{
 				}
 		}
 		.checkup-wrapper{
+			// @extend %red-border;
 			// border: 2px solid red;
 			height: 635px;
 			width: 200px;
-			margin-top: 68px;
+			// margin-top: 68px;
 			text-align: left;
 			// position: relative;
+			// margin-top: 20px;
+				.check-wrapper-inner{
+					// @extend %red-border;
+					margin-top: 105px;
+					// width: 100%;
+					// height: 100%;
+				}
 				.checkup-headline{
 					color: $dark-font;
 					font-size: 4.4em;
 					
-					margin-left: 17px;
+					// margin-left: 17px;
 					line-height: 1.07;
 					margin-top: 35px;
 						.start{
@@ -241,7 +287,7 @@ body{
 						}
 				}
 				.stacks{
-					margin-left: 17px;
+					// margin-left: 17px;
 					font-size: 1.3em;
 					margin-top: -13px;
 					color: $light-font;
@@ -252,7 +298,7 @@ body{
     				// margin-left: auto;
     				margin-right: auto;
     				margin-top: 63px;
-    				margin-left: 48px;
+    				margin-left: 32px;
 				}
 		}
 		#email-form-wrapper{
@@ -339,10 +385,12 @@ body{
 }
 
 .third{
+	// @extend %red-border;
 	margin-left: 57px;
 	margin-right: 55px;
 	margin-top: 107px;
-	height: 385px;
+	// height: 385px;
+	padding-bottom: 100px;
 	border-bottom: 1px solid $border;
 		a{
 			color: $green-font;
@@ -361,8 +409,9 @@ body{
 	margin: 0 auto;
   	text-align: center;
   	border-bottom: 1px solid $border;
-  	width: 1090px;
+  	max-width: 1090px;
   	color: $dark-font;
+  	// @extend %red-border;
   		.over{
   			font-size: 2em;
   		}
@@ -429,10 +478,12 @@ body{
 .fifth{
 	margin: 0 auto;
   	text-align: center;
+  	// padding: 20px;
   	border-bottom: 1px solid $border;
-  	width: 1090px;
+  	max-width: 1090px;
   	color: $dark-font;
   	padding-bottom: 90px;
+  	// @extend %red-border;
   		ul{
   			margin-top: 50px;
 
@@ -451,13 +502,17 @@ body{
 }
 
 footer{
-	margin: 0 auto;
-  	text-align: center;
+	// margin: 0 auto;
+	// @extend %red-border;
+	// margin-top: -40px;
+  	height: 100px;
   	color: $light-font;
-  	padding-bottom: 30px;
+  	padding-top: 43px;
+  	width: 100%;
   		.copywrite{
+  			text-align: center;
   			margin-left: -6px;
-  			margin-top: 42px;
+  			// top: 42px;
   			letter-spacing: 0.1px;
   			font-size: 0.7em;
   				.copy-symbol{
@@ -465,7 +520,8 @@ footer{
   				}
   		}
   		.small-text{
-  			margin-left: 945px;
+  			position: absolute;
+  			right: 95px;
   			font-size: .7em;
   			margin-top: -67px;
   		}

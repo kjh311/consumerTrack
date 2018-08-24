@@ -8,3 +8,16 @@ https://daverupert.com/2017/11/happier-html5-forms/
 
 Input patterns:
 https://html.com/attributes/input-pattern/
+
+$grid-breakpoints: (
+  // Extra small screen / phone
+  xs: 0,
+  // Small screen / phone
+  sm: 576px,
+  // Medium screen / tablet
+  md: 768px,
+  // Large screen / desktop
+  lg: 992px,
+  // Extra large screen / wide desktop
+  xl: 1200px
+);

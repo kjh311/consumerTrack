@@ -5,16 +5,26 @@ function validateNameForm() {
 	var nameFormWrapper = document.getElementById("name-form-wrapper");
 	var emailWrapper = document.getElementById("email-wrapper");
 
-	nameFormWrapper.className -= "visible";
+	nameFormWrapper.className -= " visible ";
     // x.className += " fadeOut ";
     nameFormWrapper.className += " hidden ";
 
-    emailWrapper.className -= "hidden";
-    emailWrapper.className += "visible";
+    emailWrapper.className -= " hidden ";
+    emailWrapper.className += " visible ";
 
 
 
 }
+
+function firstNameInvalid(){
+	var firstNameForm = document.getElementById("first-name-form");
+	firstNameForm.style.borderColor = "red";
+}
+
+function checkNameFormValidity(){
+	// alert("works")
+}
+
 
 
 
@@ -27,7 +37,7 @@ function validateEmailForm(){
 	var acountExistsWarning = document.getElementById("account-exists-wrapper");
 
 	if(emailAddress === "testemail@test.com"){
-		acountExistsWarning.className -= "hidden"
+		acountExistsWarning.className -= " hidden "
 		// acountExistsWarning.className += "visible"
 		// emailInput.className += "invalid-form"
 		emailInput.style.borderColor = "red";
@@ -38,7 +48,7 @@ function validateEmailForm(){
 
 }
 
-function checkInvalid(){
+function checkDuplicateEmail(){
 
 	var emailInput = document.getElementById('email-input');
 	var acountExistsWarning = document.getElementById("account-exists-wrapper");
@@ -47,9 +57,8 @@ function checkInvalid(){
 
 	if(!acountExistsWarning.classList.contains("hidden")){
 		acountExistsWarning.className += " hidden "
-		// alert(acountExistsWarning.classList.contains("hidden"))
 	}
-	// 
+
 }
 
 
