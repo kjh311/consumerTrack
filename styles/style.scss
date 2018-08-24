@@ -73,6 +73,7 @@ body{
 	height: 73px;
 	width: 100%;
 	border-bottom: solid $border 1px;
+	@extend %red-border;
 		#blooom-logo{
 			top: 10px;
 			left: 54px;
@@ -88,6 +89,7 @@ body{
 
 .mockup{
 	margin: auto;
+	background-image: url("assets/Desktop_Name2.jpg");
 	position: absolute;
 	top: 0; left: 0;  right: 5px;
 	// margin-left: 2px;
@@ -525,4 +527,75 @@ footer{
   			font-size: .7em;
   			margin-top: -67px;
   		}
+}
+
+
+
+
+
+// MEDIA QUERIES
+// @media (min-width: 0px) {
+// 	.second{
+// 		outline-color: yellow;
+// 	}
+// }
+
+// // Extra small devices (portrait phones, less than 576px)
+// @media (min-width: 575.98px) {
+// 	.second{
+// 		outline-color: orange;
+// 	}
+// }
+
+// // // Small devices (landscape phones, less than 768px)
+// @media (min-width: 767.98px) {
+// 	.second{
+// 		outline-color: black;
+// 	}
+// }
+
+// // // Medium devices (tablets, less than 992px)
+// @media (min-width: 991.98px) { 
+// // 	.form-wrapper{
+// // 		margin: 0 auto;
+// // 		-webkit-box-align:center;
+// //     -webkit-box-pack:center;
+// // 	}
+// 	.second{
+// 		outline-color: blue;
+// 	}
+// }
+
+// // // Large devices (desktops, less than 1200px)
+// @media (min-width: 1199.98px) {
+// 	.second{
+// 		outline-color: green;
+// 	}
+// }
+
+// TABLET
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    %red-border {
+    outline-color: green;
+}
+}
+
+// LARGE PHONE
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  %red-border {
+    outline-color: orange;
+}
+  
+}
+
+
+// SMALL PHONE
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  %red-border {
+    outline-color: yellow;
+}
+  
 }

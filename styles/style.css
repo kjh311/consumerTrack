@@ -45,6 +45,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.first {
+  box-sizing: border-box;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: medium; }
+
 body {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
@@ -87,6 +93,7 @@ body {
 
 .mockup {
   margin: auto;
+  background-image: url("assets/Desktop_Name2.jpg");
   position: absolute;
   top: 0;
   left: 0;
@@ -398,5 +405,15 @@ footer {
     right: 95px;
     font-size: .7em;
     margin-top: -67px; }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .first {
+    outline-color: green; } }
+@media (min-width: 481px) and (max-width: 767px) {
+  .first {
+    outline-color: orange; } }
+@media (min-width: 320px) and (max-width: 480px) {
+  .first {
+    outline-color: yellow; } }
 
 /*# sourceMappingURL=style.css.map */

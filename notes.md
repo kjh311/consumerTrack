@@ -21,3 +21,10 @@ $grid-breakpoints: (
   // Extra large screen / wide desktop
   xl: 1200px
 );
+
+
+
+@include media-breakpoint-down(xs) { ... }
+@include media-breakpoint-down(sm) { ... }
+@include media-breakpoint-down(md) { ... }
+@include media-breakpoint-down(lg) { ... }
