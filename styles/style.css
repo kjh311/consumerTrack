@@ -45,7 +45,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.first {
+.third, .fourth, .fifth, footer {
   box-sizing: border-box;
   outline-style: solid;
   outline-color: red;
@@ -407,13 +407,72 @@ footer {
     margin-top: -67px; }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .third, .fourth, .fifth, footer {
+    outline-color: green; }
+
+  .container-fluid {
+    padding: 0; }
+
   .first {
-    outline-color: green; } }
+    height: 104px;
+    width: 100vw;
+    position: absolute;
+    right: 0px; }
+    .first #blooom-logo {
+      top: 18px;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0; }
+    .first #banking-rates-logo {
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      z-index: -10;
+      margin-top: 42px; }
+
+  .second {
+    top: 104px; }
+    .second .main-form {
+      position: absolute;
+      width: 400px;
+      right: -13px; }
+      .second .main-form .esp {
+        font-size: 1.85em;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-top: 30px;
+        letter-spacing: 0.8px;
+        line-height: 43px; }
+      .second .main-form .alarm-font {
+        margin-left: 40px;
+        margin-right: 40px; }
+      .second .main-form .start-now {
+        margin-top: 20px; }
+    .second .checkup-wrapper {
+      height: 723px; }
+      .second .checkup-wrapper .checkup-headline {
+        font-size: 4em;
+        margin-top: -15px;
+        line-height: 75px;
+        margin-left: -25px;
+        letter-spacing: 1px; }
+      .second .checkup-wrapper .stacks {
+        font-size: 1em;
+        margin-left: -25px;
+        margin-top: -25px;
+        letter-spacing: 0.5px; }
+      .second .checkup-wrapper .pig-logo {
+        position: absolute;
+        width: 360px;
+        margin-left: -40px;
+        bottom: 5px; } }
 @media (min-width: 481px) and (max-width: 767px) {
-  .first {
+  .third, .fourth, .fifth, footer {
     outline-color: orange; } }
 @media (min-width: 320px) and (max-width: 480px) {
-  .first {
+  .third, .fourth, .fifth, footer {
     outline-color: yellow; } }
 
 /*# sourceMappingURL=style.css.map */

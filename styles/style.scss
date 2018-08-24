@@ -31,18 +31,6 @@ body{
  
 	
 }
-.two{
-	// border: 2px solid red;
-	// @extend %red-border;
-	// @extend %red-border;
- 
-}
-.one{
-	// border: 2px solid red;
-	
- 
-
-}
 
 .dark-font{
 	color: $dark-font;
@@ -73,7 +61,7 @@ body{
 	height: 73px;
 	width: 100%;
 	border-bottom: solid $border 1px;
-	@extend %red-border;
+	// @extend %red-border;
 		#blooom-logo{
 			top: 10px;
 			left: 54px;
@@ -387,7 +375,7 @@ body{
 }
 
 .third{
-	// @extend %red-border;
+	@extend %red-border;
 	margin-left: 57px;
 	margin-right: 55px;
 	margin-top: 107px;
@@ -413,7 +401,7 @@ body{
   	border-bottom: 1px solid $border;
   	max-width: 1090px;
   	color: $dark-font;
-  	// @extend %red-border;
+  	@extend %red-border;
   		.over{
   			font-size: 2em;
   		}
@@ -485,7 +473,7 @@ body{
   	max-width: 1090px;
   	color: $dark-font;
   	padding-bottom: 90px;
-  	// @extend %red-border;
+  	@extend %red-border;
   		ul{
   			margin-top: 50px;
 
@@ -505,7 +493,7 @@ body{
 
 footer{
 	// margin: 0 auto;
-	// @extend %red-border;
+	@extend %red-border;
 	// margin-top: -40px;
   	height: 100px;
   	color: $light-font;
@@ -533,52 +521,90 @@ footer{
 
 
 
-// MEDIA QUERIES
-// @media (min-width: 0px) {
-// 	.second{
-// 		outline-color: yellow;
-// 	}
-// }
 
-// // Extra small devices (portrait phones, less than 576px)
-// @media (min-width: 575.98px) {
-// 	.second{
-// 		outline-color: orange;
-// 	}
-// }
-
-// // // Small devices (landscape phones, less than 768px)
-// @media (min-width: 767.98px) {
-// 	.second{
-// 		outline-color: black;
-// 	}
-// }
-
-// // // Medium devices (tablets, less than 992px)
-// @media (min-width: 991.98px) { 
-// // 	.form-wrapper{
-// // 		margin: 0 auto;
-// // 		-webkit-box-align:center;
-// //     -webkit-box-pack:center;
-// // 	}
-// 	.second{
-// 		outline-color: blue;
-// 	}
-// }
-
-// // // Large devices (desktops, less than 1200px)
-// @media (min-width: 1199.98px) {
-// 	.second{
-// 		outline-color: green;
-// 	}
-// }
 
 // TABLET
 @media (min-width: 768px) and (max-width: 1024px) {
 
     %red-border {
     outline-color: green;
-}
+	}
+
+	.container-fluid{
+		padding: 0;
+	}
+
+
+	.first{
+		height: 104px;
+		width: 100vw;
+		position: absolute;
+		right: 0px;
+			#blooom-logo{
+				top: 18px;
+				margin-left: auto;
+				margin-right: auto;
+				left: 0;
+				right: 0;
+			}
+			#banking-rates-logo{
+				margin-left: auto;
+				margin-right: auto;
+				left: 0;
+				right: 0;
+				z-index: -10;
+				margin-top: 42px;
+			}
+			
+	}
+	.second{
+		top: 104px;
+			.main-form{
+				position: absolute;
+				width: 400px;
+				right: -13px;
+					.esp{
+					font-size: 1.85em;
+					margin-left: 2px;
+					margin-right: 2px;
+					margin-top: 30px;
+					letter-spacing: 0.8px;
+					line-height: 43px;
+					}
+					.alarm-font{
+						margin-left: 40px;
+						margin-right: 40px;
+					}
+					.start-now{
+						margin-top: 20px;
+					}
+			}
+			.checkup-wrapper{
+				height: 723px;
+				.checkup-headline{
+					font-size: 4em;
+					margin-top: -15px;
+					line-height: 75px;
+					margin-left: -25px;
+					letter-spacing: 1px;
+					// margin-right: 40px;
+				}
+				.stacks{
+					font-size: 1em;
+					margin-left: -25px;
+					margin-top: -25px;
+					letter-spacing: 0.5px;
+				}
+				.pig-logo{
+					position: absolute;
+					width: 360px;
+					margin-left: -40px;
+					bottom: 5px;
+				}
+	}
+
+	}
+
 }
 
 // LARGE PHONE
