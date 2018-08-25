@@ -109,7 +109,7 @@ body{
 	// width: 1093px;
 	border-bottom: solid $border 1px;
 	text-align: center;
-	@extend %red-border;
+	// @extend %red-border;
 		#mobile-text-wrapper{
 			display: none;
 			@extend %absolute-center;
@@ -793,10 +793,10 @@ footer{
 				}
 				.name-font{
 					font-size: 0.95em;
-					margin-top: -20px !important;
+					margin-top: -20px;
 				}
 				.first-name-form{
-					margin-top: 0px !important;
+					margin-top: 0px;
 					height: 37px;
 					// width: 30px;
 				}
@@ -1007,6 +1007,158 @@ footer{
   
   %red-border {
     outline-color: yellow;
-}
+	}
+
+	.first{
+		height: 103px;
+		#blooom-logo{
+			width: 160px;
+			margin-top: -5px;
+		}
+		#banking-rates-logo{
+			width: 195px;
+			margin-top: 40px;
+
+		}
+	}
+	.second{
+		padding-top: 15px;
+		padding-bottom: 120px;
+			#start-your-free-headline{
+				line-height: 37px !important;
+				// margin-top: 
+			}
+			#start-your-free-text{
+				margin-top: 18px !important;
+				letter-spacing: 0.7px !important;
+			}
+			.esp{
+				margin-left: 0px !important;
+				margin-right: 0px !important;
+			}
+			.name-font{
+				font-size: 1.15em !important;
+			}
+			.main-form{
+			margin-top: 80px !important;
+			width: 300px;
+			height: 675px;
+			}
+			.first-name-form{
+				margin-top: 13px !important;
+				width: 320px !important;
+				max-width: 87% !important;
+				margin-left: 5px;
+				height: 45px !important;
+			}
+			.born-on{
+				font-size: 1.1em !important;
+			}
+			.drop{
+				height: 45px !important;
+				font-size: 1.3em !important;
+				padding-left: 10px !important;
+				margin-top: 7px !important;
+			}
+			.month-drop{
+				margin-top: 10px !important;
+				width: 260px !important;
+			}
+			.day-drop{
+				width: 126px !important;
+			}
+			.year-drop{
+				width: 126px !important;
+				padding-left: 15px !important;
+			}
+			.fa{
+				margin-top: 17px !important;
+			}
+			.fa1{
+				margin-left: 233px !important;
+			}
+			.fa2{
+				margin-left: -170px !important;
+				margin-top: 70px !important;
+			}
+			.fa3{
+				margin-left: 100px !important;
+				margin-top: 15px !important;
+			}
+			.alarm-font{
+				font-size: 1.1em !important;
+				margin-left: 0px !important;
+				margin-right: 0px !important;
+				letter-spacing: 1.5px !important;
+			}
+			.retire-drop{
+				margin-top: 10px !important;
+				width: 76px !important;
+				height: 42px !important;
+			}
+			.start-now{
+				margin-top: 16px !important;
+				width: 175px !important;
+				height: 50px !important;
+				font-size: 1.2em !important;
+			}
+			#email-form-wrapper{
+				padding-top: 55px;
+				width: 300px;
+				height: 675px;
+				.first-thing{
+					font-size: 1.4em !important;
+					margin: 0px 25px 0px 25px;
+					letter-spacing: 2px;
+				}
+				.email-form-text{
+					// margin-top: 15px;
+					font-size: 1em;
+					line-height: 29px;
+					margin: 15px 20px 0px 20px;
+				}
+				.email-input{
+					margin-top: 49px !important;
+					height: 52px !important;
+					width: 320px !important;
+					max-width: 86% !important;
+				}
+				#account-exists{
+					font-size: 0.9em !important;
+					margin-left: 57px !important;
+					text-align: left;
+				}
+				.exclamation{
+					width: 20px !important;
+					left: 20px;
+				}
+				.email-submit-button{
+					margin-top: 90px;
+					width: 170px;
+					height: 48px;
+					font-size: 1.3em;
+				}
+				.have-account{
+					font-size: 0.85em;
+					margin-top: 15px;
+				}
+			}
+			
+		// margin-top: 30px;
+	}
+	.third{
+		padding-bottom: 36px;
+		margin: 107px 23px 0px 23px;
+		.disclaimer-header{
+			font-size: 1.9em;
+			letter-spacing: 1px;
+		}
+		.disclaimer-text{
+			font-size: 0.9em;
+			letter-spacing: 0.5px;
+			line-height: 28px;
+		}
+	}
+	
   
 }
