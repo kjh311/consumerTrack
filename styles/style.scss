@@ -375,7 +375,7 @@ body{
 }
 
 .third{
-	@extend %red-border;
+	// @extend %red-border;
 	margin-left: 57px;
 	margin-right: 55px;
 	margin-top: 107px;
@@ -401,7 +401,8 @@ body{
   	border-bottom: 1px solid $border;
   	max-width: 1090px;
   	color: $dark-font;
-  	@extend %red-border;
+  	padding-bottom: 100px;
+  	// @extend %red-border;
   		.over{
   			font-size: 2em;
   		}
@@ -461,7 +462,7 @@ body{
   			font-size: 1.95em;
   			margin-top: 23px;
   			letter-spacing: 0.6px;
-  			padding-bottom: 100px
+  			
   		}
 }
 
@@ -469,11 +470,11 @@ body{
 	margin: 0 auto;
   	text-align: center;
   	// padding: 20px;
-  	border-bottom: 1px solid $border;
+  	
   	max-width: 1090px;
   	color: $dark-font;
-  	padding-bottom: 90px;
-  	@extend %red-border;
+  	padding-bottom: 60px;
+  	// @extend %red-border;
   		ul{
   			margin-top: 50px;
 
@@ -493,12 +494,19 @@ body{
 
 footer{
 	// margin: 0 auto;
-	@extend %red-border;
+	// @extend %red-border;
 	// margin-top: -40px;
+	border-top: 1px solid $border;
   	height: 100px;
   	color: $light-font;
   	padding-top: 43px;
-  	width: 100%;
+  	width: 86%;
+  	position: absolute;
+  	margin-top: 30px;
+  	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
   		.copywrite{
   			text-align: center;
   			margin-left: -6px;
@@ -511,7 +519,7 @@ footer{
   		}
   		.small-text{
   			position: absolute;
-  			right: 95px;
+  			right: 5px;
   			font-size: .7em;
   			margin-top: -67px;
   		}
@@ -559,6 +567,7 @@ footer{
 	}
 	.second{
 		top: 104px;
+		padding-bottom: 70px;
 			.main-form{
 				position: absolute;
 				width: 400px;
@@ -604,6 +613,53 @@ footer{
 	}
 
 	}
+	.third{
+		margin: 0 auto;
+		padding: 80px 5px 90px 5px;
+		margin-top: 110px;
+		// padding-top: 80px;
+			.disclaimer-text{
+			margin-top: 20px;
+		}
+	}
+	.fourth{
+		// padding-top: -20px;
+		// .over1{
+		// 	padding-top: 50px;
+		// }
+		margin-top: -30px;
+		padding-bottom: 95px;
+	}
+	.fifth{
+		.employees-heading{
+			font-size: 2.5em;
+			margin: 0px 40px 0px 40px;
+			// margin-left: 40px;
+			// margin-right: 40px;
+			// margin-top: 92px;
+			padding-top: 92px;
+			// padding-bottom: -30px;
+			letter-spacing: 2.7px;
+			line-height: 58px;
+		}
+		ul{
+			margin-top: 30px;
+		}
+		li{
+			margin: 20px 50px 20px 50px;
+		}
+	}
+	footer{
+		margin-top: 0px;
+		width: 95%;
+			.copywrite{
+				margin-top: -8px;
+			}
+			.small-text{
+				margin-top: -63px;
+			}
+	}
+
 
 }
 

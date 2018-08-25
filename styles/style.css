@@ -45,12 +45,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.third, .fourth, .fifth, footer {
-  box-sizing: border-box;
-  outline-style: solid;
-  outline-color: red;
-  outline-width: medium; }
-
 body {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
@@ -321,7 +315,8 @@ body {
   text-align: center;
   border-bottom: 1px solid #d0d0d0;
   max-width: 1090px;
-  color: #4b4b4b; }
+  color: #4b4b4b;
+  padding-bottom: 100px; }
   .fourth .over {
     font-size: 2em; }
   .fourth .over1 {
@@ -366,16 +361,14 @@ body {
   .fourth .analyzed {
     font-size: 1.95em;
     margin-top: 23px;
-    letter-spacing: 0.6px;
-    padding-bottom: 100px; }
+    letter-spacing: 0.6px; }
 
 .fifth {
   margin: 0 auto;
   text-align: center;
-  border-bottom: 1px solid #d0d0d0;
   max-width: 1090px;
   color: #4b4b4b;
-  padding-bottom: 90px; }
+  padding-bottom: 60px; }
   .fifth ul {
     margin-top: 50px; }
   .fifth li {
@@ -389,10 +382,17 @@ body {
     letter-spacing: 1.4px; }
 
 footer {
+  border-top: 1px solid #d0d0d0;
   height: 100px;
   color: #a7a7a7;
   padding-top: 43px;
-  width: 100%; }
+  width: 86%;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0; }
   footer .copywrite {
     text-align: center;
     margin-left: -6px;
@@ -402,14 +402,11 @@ footer {
       font-size: 1.4em; }
   footer .small-text {
     position: absolute;
-    right: 95px;
+    right: 5px;
     font-size: .7em;
     margin-top: -67px; }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  .third, .fourth, .fifth, footer {
-    outline-color: green; }
-
   .container-fluid {
     padding: 0; }
 
@@ -433,7 +430,8 @@ footer {
       margin-top: 42px; }
 
   .second {
-    top: 104px; }
+    top: 104px;
+    padding-bottom: 70px; }
     .second .main-form {
       position: absolute;
       width: 400px;
@@ -467,12 +465,36 @@ footer {
         position: absolute;
         width: 360px;
         margin-left: -40px;
-        bottom: 5px; } }
-@media (min-width: 481px) and (max-width: 767px) {
-  .third, .fourth, .fifth, footer {
-    outline-color: orange; } }
-@media (min-width: 320px) and (max-width: 480px) {
-  .third, .fourth, .fifth, footer {
-    outline-color: yellow; } }
+        bottom: 5px; }
+
+  .third {
+    margin: 0 auto;
+    padding: 80px 5px 90px 5px;
+    margin-top: 110px; }
+    .third .disclaimer-text {
+      margin-top: 20px; }
+
+  .fourth {
+    margin-top: -30px;
+    padding-bottom: 95px; }
+
+  .fifth .employees-heading {
+    font-size: 2.5em;
+    margin: 0px 40px 0px 40px;
+    padding-top: 92px;
+    letter-spacing: 2.7px;
+    line-height: 58px; }
+  .fifth ul {
+    margin-top: 30px; }
+  .fifth li {
+    margin: 20px 50px 20px 50px; }
+
+  footer {
+    margin-top: 0px;
+    width: 95%; }
+    footer .copywrite {
+      margin-top: -8px; }
+    footer .small-text {
+      margin-top: -63px; } }
 
 /*# sourceMappingURL=style.css.map */
