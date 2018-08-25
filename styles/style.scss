@@ -8,6 +8,14 @@ $dark-font: #4b4b4b;
 $red-font: #d90122;
 $border: #d0d0d0;
 
+%absolute-center{
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	right: 0;
+	left: 0;
+}
+
 %red-border {
   	box-sizing: border-box; 
 	outline-style: solid;
@@ -61,7 +69,7 @@ body{
 	height: 73px;
 	width: 100%;
 	border-bottom: solid $border 1px;
-	// @extend %red-border;
+	@extend %red-border;
 	max-width: 1200px;
 		#blooom-logo{
 			top: 10px;
@@ -82,7 +90,7 @@ body{
 	position: absolute;
 	top: 0; left: 0;  right: 5px;
 	// margin-left: 2px;
-	opacity: 0.7;
+	opacity: 0.6;
 	// -webkit-user-select: none;  /* Chrome all / Safari all */
  //  -moz-user-select: none;     /* Firefox all */
  //  -ms-user-select: none;      /* IE 10+ */
@@ -102,8 +110,29 @@ body{
 	border-bottom: solid $border 1px;
 	text-align: center;
 	// @extend %red-border;
+		#mobile-text-wrapper{
+			display: none;
+			@extend %absolute-center;
+			// @extend %red-border;
+				#start-your-free-headline{
+					font-size: 1.8em;
+					margin: 5px 25px 0px 25px;
+					color: $dark-font;
+					// margin-left: 45px;
+					// margin-right: 45px;
+					// margin-top: 5px;
+					letter-spacing: 2.5px;
+					line-height: 33px;
+				}
+				#start-your-free-text{
+					margin-top: 15px;
+					font-size: 0.9em;
+					color: $light-font;
+				}
+
+		}
 		.form-wrapper{
-			@extend %red-border;
+			// @extend %red-border;
 			left: -10px;
 			// margin-top: -3px;
 			// margin-left: 10px;
@@ -742,6 +771,81 @@ footer{
 				width: 160px;
 				margin-top: 33px;
 			}
+	}
+	.second{
+		padding-bottom: 110px;
+		#mobile-text-wrapper{
+			display: block;
+		}
+		.main-form{
+			margin-top: 60px;
+			width: 336px;
+			right: -6px;
+			padding-bottom: 50px;
+				.esp{
+					font-size: 1.5em;
+					font-weight: 300;		
+					margin: 40px 20px 0px 20px;	
+					letter-spacing: 1.5px;
+					line-height: 36px;
+
+				}
+				.name-font{
+					font-size: 0.95em;
+					margin-top: -20px !important;
+				}
+				.first-name-form{
+					margin-top: 0px !important;
+					height: 37px;
+					// width: 30px;
+				}
+
+				.drop{
+					height: 35px;
+					margin-top: 10px;
+					// padding: 0px;
+					font-size: 0.9em;
+					padding-left: 5px;
+				}
+				.fa{
+					margin: 13px 0px 0px 45px;
+					font-size: 1.8em;
+				}
+				.fa1{
+					margin-left: 100px;
+				}
+				.born-on{
+					margin-top: 33px;
+					font-size: 0.9em;
+				}
+				.month-drop{
+					width: 120px;
+					margin-left: 8px;
+				}
+				.day-drop{
+					width: 65px;
+					// margin-left: -10px;
+				}
+				.year-drop{
+					width: 75px;
+				}
+				.retire-drop{
+					width: 70px;
+					padding-left: 13px;
+					font-size: 1.1em;
+				}
+				.alarm-font{
+					font-size: 0.9em;
+					margin-top: 32px;
+				}
+				.start-now{
+					margin-top: 13px;
+					width: 146px;
+					height: 40px;
+					font-size: 1em;
+					letter-spacing: 0.8px;
+				}
+		}
 	}
   
 }

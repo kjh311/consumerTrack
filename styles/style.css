@@ -45,7 +45,14 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.second .form-wrapper {
+.second #mobile-text-wrapper {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+  left: 0; }
+
+.first {
   box-sizing: border-box;
   outline-style: solid;
   outline-color: red;
@@ -99,7 +106,7 @@ body {
   top: 0;
   left: 0;
   right: 5px;
-  opacity: 0.7;
+  opacity: 0.6;
   z-index: 10; }
 
 .second {
@@ -111,6 +118,18 @@ body {
   right: 0;
   border-bottom: solid #d0d0d0 1px;
   text-align: center; }
+  .second #mobile-text-wrapper {
+    display: none; }
+    .second #mobile-text-wrapper #start-your-free-headline {
+      font-size: 1.8em;
+      margin: 5px 25px 0px 25px;
+      color: #4b4b4b;
+      letter-spacing: 2.5px;
+      line-height: 33px; }
+    .second #mobile-text-wrapper #start-your-free-text {
+      margin-top: 15px;
+      font-size: 0.9em;
+      color: #a7a7a7; }
   .second .form-wrapper {
     left: -10px; }
   .second .name-form-wrapper {
@@ -416,7 +435,7 @@ footer {
     margin-top: -67px; }
 
 @media only screen and (max-width: 1024px) {
-  .second .form-wrapper {
+  .first {
     outline-color: green; }
 
   .container-fluid {
@@ -533,7 +552,7 @@ footer {
     footer .small-text {
       margin-top: -63px; } }
 @media only screen and (max-width: 767px) {
-  .second .form-wrapper {
+  .first {
     outline-color: orange; }
 
   .first {
@@ -554,9 +573,64 @@ footer {
       z-index: -10;
       margin-top: 42px;
       width: 160px;
-      margin-top: 33px; } }
+      margin-top: 33px; }
+
+  .second {
+    padding-bottom: 110px; }
+    .second #mobile-text-wrapper {
+      display: block; }
+    .second .main-form {
+      margin-top: 60px;
+      width: 336px;
+      right: -6px;
+      padding-bottom: 50px; }
+      .second .main-form .esp {
+        font-size: 1.5em;
+        font-weight: 300;
+        margin: 40px 20px 0px 20px;
+        letter-spacing: 1.5px;
+        line-height: 36px; }
+      .second .main-form .name-font {
+        font-size: 0.95em;
+        margin-top: -20px !important; }
+      .second .main-form .first-name-form {
+        margin-top: 0px !important;
+        height: 37px; }
+      .second .main-form .drop {
+        height: 35px;
+        margin-top: 10px;
+        font-size: 0.9em;
+        padding-left: 5px; }
+      .second .main-form .fa {
+        margin: 13px 0px 0px 45px;
+        font-size: 1.8em; }
+      .second .main-form .fa1 {
+        margin-left: 100px; }
+      .second .main-form .born-on {
+        margin-top: 33px;
+        font-size: 0.9em; }
+      .second .main-form .month-drop {
+        width: 120px;
+        margin-left: 8px; }
+      .second .main-form .day-drop {
+        width: 65px; }
+      .second .main-form .year-drop {
+        width: 75px; }
+      .second .main-form .retire-drop {
+        width: 70px;
+        padding-left: 13px;
+        font-size: 1.1em; }
+      .second .main-form .alarm-font {
+        font-size: 0.9em;
+        margin-top: 32px; }
+      .second .main-form .start-now {
+        margin-top: 13px;
+        width: 146px;
+        height: 40px;
+        font-size: 1em;
+        letter-spacing: 0.8px; } }
 @media only screen and (max-width: 480px) {
-  .second .form-wrapper {
+  .first {
     outline-color: yellow; } }
 
 /*# sourceMappingURL=style.css.map */
