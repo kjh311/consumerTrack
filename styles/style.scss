@@ -19,6 +19,13 @@ $border: #d0d0d0;
 //FONTS
 $open:  'Open Sans', sans-serif;
 
+// input:invalid {
+//   border-color: #ffdddd !important;
+// }
+
+// select:invalid{
+// 	border-color: #ffdddd !important;
+// }
 
 body{
 	font-size: 16px;
@@ -125,6 +132,7 @@ body{
 				    -webkit-appearance: none;
 				    appearance:none;
 				    outline: none;
+				    border-radius: 5px;
 				}			
 				.alarm-font{
 					display: inline-block;

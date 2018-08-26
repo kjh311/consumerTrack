@@ -136,7 +136,8 @@ body {
       -moz-appearance: none;
       -webkit-appearance: none;
       appearance: none;
-      outline: none; }
+      outline: none;
+      border-radius: 5px; }
     .second .main-form .alarm-font {
       display: inline-block;
       font-size: 1.07em;
