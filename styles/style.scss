@@ -445,6 +445,8 @@ footer{
   	color: $light-font;
   	padding-top: 43px;
   	width: 86%;
+  	position: relative;
+	max-width: 1200px;
   	position: absolute;
   	margin: 30px auto 0px auto;
 	left: 0;
