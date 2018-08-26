@@ -6,13 +6,9 @@ function validateNameForm() {
 	var emailWrapper = document.getElementById("email-wrapper");
 
 	nameFormWrapper.className -= " visible ";
-    // x.className += " fadeOut ";
     nameFormWrapper.className += " hidden ";
-
     emailWrapper.className -= " hidden ";
     emailWrapper.className += " visible ";
-
-
 
 }
 
@@ -20,13 +16,6 @@ function firstNameInvalid(){
 	var firstNameForm = document.getElementById("first-name-form");
 	firstNameForm.style.borderColor = "red";
 }
-
-function checkNameFormValidity(){
-	// alert("works")
-}
-
-
-
 
 
 function validateEmailForm(){
@@ -38,14 +27,9 @@ function validateEmailForm(){
 
 	if(emailAddress === "testemail@test.com"){
 		acountExistsWarning.className -= " hidden "
-		// acountExistsWarning.className += "visible"
-		// emailInput.className += "invalid-form"
 		emailInput.style.borderColor = "red";
 		return false;
 	}
-
-
-
 }
 
 function checkDuplicateEmail(){
