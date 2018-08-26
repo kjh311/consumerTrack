@@ -16,15 +16,9 @@ $border: #d0d0d0;
 	left: 0;
 }
 
-%red-border {
-  	box-sizing: border-box; 
-	outline-style: solid;
-    outline-color: red;
-    outline-width: medium;
-}
-
 //FONTS
 $open:  'Open Sans', sans-serif;
+
 
 body{
 	font-size: 16px;
@@ -34,10 +28,6 @@ body{
 
 .container-fluid{
 	max-width: 1230px !important;
-	// border: 2px solid red;
-	// @extend %red-border;
- 
-	
 }
 
 .dark-font{
@@ -46,11 +36,6 @@ body{
 
 .light-font{
 	color: $light-font;
-}
-
-.fadeOut{
-	opacity: 0;
-  	transition: opacity .2s linear;
 }
 
 .invalid-form{
@@ -69,16 +54,15 @@ body{
 	height: 73px;
 	width: 100%;
 	border-bottom: solid $border 1px;
-	// @extend %red-border;
 	position: relative;
 	max-width: 1200px;
 		#blooom-logo{
 			top: 10px;
-			left: 44px;
+			left: 40px;
 		}
 		#banking-rates-logo{
 			top: 20px;
-			right: 54px;
+			right: 40px;
 		}
 		.top-logo{
 			position: absolute;
@@ -89,39 +73,27 @@ body{
 	margin: auto;
 	background-image: url("assets/Desktop_Name2.jpg");
 	position: absolute;
-	top: 0; left: 0;  right: 5px;
-	// margin-left: 2px;
+	top: 0; 
+	left: 0;  
+	right: 5px;
 	opacity: 0.4;
-	// -webkit-user-select: none;  /* Chrome all / Safari all */
- //  -moz-user-select: none;     /* Firefox all */
- //  -ms-user-select: none;      /* IE 10+ */
- //  user-select: none;  
 	z-index: 10;
 }
 
 .second{
-	// margin-top: 100px;
-	// height: 811px;
-	// height: 810px;
 	padding-bottom: 174px;
 	margin: auto;
 	position: relative;
 	top: 0; left: 0;  right: 0;
-	// width: 1093px;
 	border-bottom: solid $border 1px;
 	text-align: center;
-	// @extend %red-border;
 		#mobile-text-wrapper{
 			display: none;
 			@extend %absolute-center;
-			// @extend %red-border;
 				#start-your-free-headline{
 					font-size: 1.8em;
 					margin: 5px 25px 0px 25px;
 					color: $dark-font;
-					// margin-left: 45px;
-					// margin-right: 45px;
-					// margin-top: 5px;
 					letter-spacing: 2.1px;
 					line-height: 33px;
 				}
@@ -133,32 +105,22 @@ body{
 
 		}
 		.form-wrapper{
-			// @extend %red-border;
 			left: -10px;
-			// margin-top: -3px;
-			// margin-left: 10px;
-			// width: 100%;
-			// height: 810px;
 		}
 		.name-form-wrapper{
-			opacity: 1;
-  			transition: opacity 0.2s linear;
-
-
+			// opacity: 1;
+  			// transition: opacity 0.2s linear;
 		}
 		.main-form{
 			position: relative;
-			// @extend %red-border;
 			top: 67px;
 			border: 1px solid $border;
 			margin: 0 auto;
 			max-width: 489px;
-			// height: 633px;
 			padding-bottom: 60px;
 			-webkit-box-shadow: 2px 2px 2px rgba(0,0,0,0.05);
 			        box-shadow: 2px 2px 2px rgba(0,0,0,0.05);
 				select {
-				    // border: 0 !important;
 				    -moz-appearance: none;
 				    -webkit-appearance: none;
 				    appearance:none;
@@ -172,7 +134,6 @@ body{
 					max-width: 90%;
 				}
 				.born-on{
-					// position: relative;
 					display: inline-block;
 					margin-top: 40px;
 					font-weight: 500;
@@ -192,7 +153,6 @@ body{
 					color: $light-font;
 					display: inline-block;
 					margin-top: 17px;
-					
 					z-index: -100;
 				}
 				.fa1{
@@ -226,14 +186,10 @@ body{
 					padding-left: 13px;
 				}
 				.esp{
-					// position: relative;
 					font-size:2em;
 					font-weight: 700;
-					margin-left: 50px;
-					margin-right: 50px;
-					margin-top: 42px;
+					margin: 43px 50px 0px 50px;
 					line-height: 1.3;
-					// font-family: $ariel;
 				}
 				.start-now{
 					margin-top: 16px;
@@ -251,21 +207,14 @@ body{
 				.first-name-form{
 					margin-top: 10px;
 					width: 400px;
-					max-width: 80%;
+					max-width: 85%;
 					background-color: transparent;
 					height: 46px;
 					border-radius: 5px;
 					outline: none;
 					text-align: center;
 					border: 1px solid $border;
-
-					// border: 1px solid #light-font;
 				}
-			
-				// .first-name-form:invalid{
-				// 	border: 1px solid $red-font;
-				// }
-
 				.name-form{
 					margin-top: 40px;
 				}
@@ -273,30 +222,19 @@ body{
 					background: $green-font;
 				}
 				.name-font{
-					// margin-top: 100px;
 					font-size: 1.15em;
 				}
 		}
 		.checkup-wrapper{
-			// @extend %red-border;
-			// border: 2px solid red;
 			height: 635px;
 			width: 200px;
-			// margin-top: 68px;
 			text-align: left;
-
-			// position: relative;
-			// margin-top: 20px;
 				.check-wrapper-inner{
-					// @extend %red-border;
 					margin-top: 105px;
-					// width: 100%;
-					// height: 100%;
 				}
 				.checkup-headline{
 					color: $dark-font;
 					font-size: 4.4em;
-					
 					margin-right: 30px;
 					line-height: 1.07;
 					margin-top: 35px;
@@ -308,28 +246,19 @@ body{
 						}
 				}
 				.stacks{
-					// margin-left: 17px;
 					font-size: 1.3em;
 					margin-top: -13px;
 					color: $light-font;
 				}
 				.pig-logo{
-					// position: absolute;
 					display: block;
-    				// margin-left: auto;
-    				margin-right: auto;
-    				margin-top: 63px;
-    				margin-left: 32px;
+					margin: 63px auto 0px 32px;
 				}
 		}
 		#email-form-wrapper{
-			// border: 2px solid red;
-			// @extend %red-border;
-			// position: relative;
-			// top: 0;
 			display: inline-block;
-			margin-left: 25px;
-			margin-right: 25px;
+			margin: 0px 25px 0px 25px;
+			padding-bottom: 23px;
 				.first-thing{
 					margin-top: 38px;
 					font-size: 1.9em;
@@ -338,19 +267,17 @@ body{
 					color: $dark-font;
 				}
 				.email-form-text{
+					margin: -3px 20px 0px 20px;
 					color: $light-font;
 					font-size: 1.2em;
-					margin-top: -3px;
 					line-height: 29px;
 					font-weight: 100;
-					// letter-spacing: 0.3px;
 				}
 				.email-input{
-					margin-top: 54px;
+					margin: 70px 0px 0px 5px;
 					color: $light-font;
 					height: 52px;
 					width: 400px;
-					margin-left: 5px;
 					border-radius: 5px;
 					text-align: center;
 					border: 1px solid $border;
@@ -368,10 +295,9 @@ body{
 				.email-submit-button{
 					outline-color: transparent;
   					outline-style: none;
-					margin-top: 72px;
+  					margin: 72px 0px 0px 2px;
 					width: 175px;
 					height: 49px;
-					margin-left: 2px;
 					border-radius: 5px;
 					background: $border;
 					color: white;
@@ -384,8 +310,7 @@ body{
 				#account-exists{
 					position: relative;
 					color: $red-font;
-					margin-top: -160px;
-					margin-left: 10px;
+					margin: -160px 0px 0px 10px;
 					letter-spacing: 0.1px;
 					font-size: 0.87em;
 						.sign-in{
@@ -394,8 +319,7 @@ body{
 				}
 				.exclamation{
 					position: relative;
-					margin-top: -160px;
-					margin-right: 310px;
+					margin: -160px 310px 0px 0px;
 				}
 				.have-account{
 					margin-top: 15px;
@@ -408,11 +332,7 @@ body{
 }
 
 .third{
-	// @extend %red-border;
-	margin-left: 57px;
-	margin-right: 55px;
-	margin-top: 107px;
-	// height: 385px;
+	margin: 107px 55px 0px 57px;
 	padding-bottom: 100px;
 	border-bottom: 1px solid $border;
 		a{
@@ -435,12 +355,10 @@ body{
   	max-width: 1090px;
   	color: $dark-font;
   	padding-bottom: 100px;
-  	// @extend %red-border;
   		.over{
   			font-size: 2em;
   		}
   		.over1{
-  			// position: relative;
   			margin-top: 114px;
   		}
   		.over2{
@@ -449,12 +367,9 @@ body{
   		.large{
   			font-size: 7em;
   			font-weight: 500;
-  			
-
   		}
   		.billion{
-  			margin-top: -15px;
-  			margin-left: 24px;
+  			margin: -15px 0px 0px 24px;
   			letter-spacing: 3.5px;
   		}
   		.exponent{
@@ -473,19 +388,16 @@ body{
   		.underline1{
   			border-bottom: 1px solid $border;
   			width: 390px;
-  			position: relative;
   			margin: 0 auto;
   		}
   		.underline2{
   			border-bottom: 1px solid $border;
   			width: 1090px;
-  			position: relative;
   			margin: 0 auto;
   		}
   		.hundred-thousand{
   			letter-spacing: 1.7px;
-  			margin-left: 25px;
-  			margin-top: -10px;
+  			margin: -10px 0px 0px 25px;
   		}
   		.exponent2{
   			top: -65px;
@@ -495,27 +407,21 @@ body{
   			font-size: 1.95em;
   			margin-top: 23px;
   			letter-spacing: 0.6px;
-  			
   		}
 }
 
 .fifth{
 	margin: 0 auto;
   	text-align: center;
-  	// padding: 20px;
-  	
   	max-width: 1090px;
   	color: $dark-font;
-  	padding-bottom: 15px;
-  	// @extend %red-border;
+  	padding-bottom: 60px;
   		ul{
   			margin-top: 50px;
-
   		}
   		li{
   			display: inline-block;
-  			margin-left: 51px;
-  			margin-right: 51px;
+  			margin: 0px 51px 0px 51px;
   		}
   		.employees-heading{
   			font-size: 2.7em;
@@ -526,24 +432,18 @@ body{
 }
 
 footer{
-	// margin: 0 auto;
-	// @extend %red-border;
-	// margin-top: -40px;
 	border-top: 1px solid $border;
   	height: 100px;
   	color: $light-font;
   	padding-top: 43px;
   	width: 86%;
   	position: absolute;
-  	margin-top: 30px;
-  	margin-left: auto;
-	margin-right: auto;
+  	margin: 30px auto 0px auto;
 	left: 0;
 	right: 0;
   		.copywrite{
   			text-align: center;
   			margin-left: -6px;
-  			// top: 42px;
   			letter-spacing: 0.1px;
   			font-size: 0.7em;
   				.copy-symbol{
@@ -561,21 +461,12 @@ footer{
 
 
 
-
-
-
 // TABLET
 @media only screen and (max-width: 1024px) {
-
-    %red-border {
-    outline-color: green;
-	}
 
 	.container-fluid{
 		padding: 0;
 	}
-
-
 	.first{
 		height: 104px;
 		width: 100vw;
@@ -583,42 +474,34 @@ footer{
 		right: 0px;
 			#blooom-logo{
 				top: 18px;
-				margin-left: auto;
-				margin-right: auto;
+				margin: 0px auto 0px auto;
 				left: 0;
 				right: 0;
 			}
 			#banking-rates-logo{
-				margin-left: auto;
-				margin-right: auto;
+				margin: 0px auto 0px auto;
 				left: 0;
 				right: 0;
 				z-index: -10;
 				margin-top: 42px;
 			}
-			
 	}
 	.second{
 		top: 104px;
 		padding-bottom: 70px;
+
 			.main-form{
-				// position: absolute;
+				top: 50px;
 				width: 400px;
 				right: -13px;
-				// margin-left: 10px;
-				// margin-right: 40px;
-
 					.esp{
 					font-size: 1.85em;
-					margin-left: 2px;
-					margin-right: 2px;
-					margin-top: 30px;
+					margin: 50px 2px 0px 2px;
 					letter-spacing: 0.8px;
 					line-height: 43px;
 					}
 					.alarm-font{
-						margin-left: 40px;
-						margin-right: 40px;
+						margin: 40px 40px 0px 40px;
 					}
 					.start-now{
 						margin-top: 20px;
@@ -629,13 +512,11 @@ footer{
 			}
 			#email-form-wrapper{
 				margin: 0;
-				// top: -4px;
+				padding-top: 18px;
+				padding-bottom: 35px;
 					.email-form-text{
 						font-size: 1em;
 						margin: -7px 10px 0px 10px;
-						// margin-top: -7px;
-						// margin-left: 10px;
-						// margin-right: 10px;
 						letter-spacing: 0.5px;
 					}
 					#email-input{
@@ -650,39 +531,27 @@ footer{
 					}
 					#account-exists{
 						margin: -167px 0px 0px 20px;
-						// margin-top: -167px;
-						// margin-left: 20px;
 					}
 					.exclamation{
-
 						margin-top: -167px;
 						margin-left: 15px;
 					}
 			}
 			.checkup-wrapper{
 				height: 723px;
-				// left: 65px;
-				// margin-right: 10px;
 				padding-right: 0px;
-				// width: 50px;
-				.check-wrapper-inner{
-
-				}
 				.checkup-headline{
 					font-size: 4em;
-					margin-top: -15px;
+					// left: 10px;
+					// padidn-left: 10px;
+					margin: -15px 0px 0px 40px;
 					line-height: 75px;
-					margin-left: 37px;
-					margin-right: 0px;
 					letter-spacing: 1px;
-					margin-right: 30px;
 				}
 				.stacks{
 					font-size: 1em;
-					margin-left: -25px;
-					margin-top: -25px;
-					letter-spacing: 0.5px;
-					margin-left: 40px;
+					margin: -20px 0px 0px 43px;
+					letter-spacing: 0.3px;
 				}
 				.pig-logo{
 					position: absolute;
@@ -691,35 +560,26 @@ footer{
 					bottom: 5px;
 					margin-left: 20px;
 				}
-	}
-
+			}
 	}
 	.third{
 		margin: 0 auto;
 		padding: 80px 5px 90px 5px;
 		margin-top: 110px;
-		// padding-top: 80px;
 			.disclaimer-text{
 			margin-top: 20px;
-		}
+			}
 	}
 	.fourth{
-		// padding-top: -20px;
-		// .over1{
-		// 	padding-top: 50px;
-		// }
 		margin-top: -30px;
 		padding-bottom: 95px;
 	}
 	.fifth{
+		padding-bottom: 60px;
 		.employees-heading{
 			font-size: 2.5em;
 			margin: 0px 40px 0px 40px;
-			// margin-left: 40px;
-			// margin-right: 40px;
-			// margin-top: 92px;
 			padding-top: 92px;
-			// padding-bottom: -30px;
 			letter-spacing: 2.7px;
 			line-height: 58px;
 		}
@@ -731,7 +591,6 @@ footer{
 		}
 	}
 	footer{
-		// @extend %red-border;
 		margin-top: 0px;
 		width: 95%;
 			.copywrite{
@@ -741,181 +600,165 @@ footer{
 				margin-top: -63px;
 			}
 	}
-
-
 }
 
 // LARGE PHONE
 @media only screen and (max-width: 767px) {
-  
-  %red-border {
-    outline-color: orange;
-}
 
 	.first{
 		height: 88px;
-		#blooom-logo{
+			#blooom-logo{
 				top: 18px;
-				margin-left: auto;
-				margin-right: auto;
-				margin-top: -10px;
+				margin: -10px auto 0px auto;
 				width: 135px;
 				left: 0;
 				right: 0;
 			}
 			#banking-rates-logo{
-				margin-left: auto;
-				margin-right: auto;
+				margin: 33px auto 0px auto;
 				left: 0;
 				right: 0;
 				z-index: -10;
-				margin-top: 42px;
 				width: 160px;
-				margin-top: 33px;
 			}
 	}
 	.second{
 		padding-bottom: 110px;
-		#mobile-text-wrapper{
-			display: block;
-		}
-		.main-form{
-			margin-top: 60px;
-			width: 336px;
-			right: -6px;
-			padding-bottom: 50px;
-				.esp{
+		// top: 120px;
+			#mobile-text-wrapper{
+			}
+			#mobile-text-wrapper{
+				display: inline-block;
+								// height: 200px !important;
+
+			}
+			.main-form{
+				margin-top: 75px;
+				width: 336px;
+				right: -6px;
+				padding-bottom: 50px;
+					.esp{
+						font-size: 1.5em;
+						font-weight: 300;		
+						margin: 40px 20px 0px 20px;	
+						letter-spacing: 1.5px;
+						line-height: 36px;
+					}
+					.name-font{
+						font-size: 0.95em;
+						margin-top: -20px;
+					}
+					.first-name-form{
+						margin-top: 0px;
+						height: 37px;
+					}
+					.drop{
+						height: 35px;
+						margin-top: 10px;
+						font-size: 0.9em;
+						padding-left: 5px;
+					}
+					.fa{
+						margin: 13px 0px 0px 45px;
+						font-size: 1.8em;
+					}
+					.fa1{
+						margin-left: 100px;
+					}
+					.born-on{
+						margin-top: 33px;
+						font-size: 0.9em;
+					}
+					.month-drop{
+						width: 120px;
+						margin-left: 8px;
+					}
+					.day-drop{
+						width: 65px;
+					}
+					.year-drop{
+						width: 75px;
+					}
+					.retire-drop{
+						width: 70px;
+						padding-left: 13px;
+						font-size: 1.1em;
+					}
+					.alarm-font{
+						font-size: 0.9em;
+						margin-top: 32px;
+					}
+					.start-now{
+						margin-top: 13px;
+						width: 146px;
+						height: 40px;
+						font-size: 1em;
+						letter-spacing: 0.8px;
+					}
+			}
+			#email-form-wrapper{
+				margin-top: 5px;
+				width: 335px;
+				height: 510px;
+				padding-top: 0px;
+				padding-bottom: 50px;
+				.first-thing{
 					font-size: 1.5em;
-					font-weight: 300;		
-					margin: 40px 20px 0px 20px;	
-					letter-spacing: 1.5px;
-					line-height: 36px;
-
+					line-height: 35px;
+					margin-top: 43px;
+					letter-spacing: 0.7px;
 				}
-				.name-font{
-					font-size: 0.95em;
-					margin-top: -20px;
-				}
-				.first-name-form{
-					margin-top: 0px;
-					height: 37px;
-					// width: 30px;
-				}
-
-				.drop{
-					height: 35px;
-					margin-top: 10px;
-					// padding: 0px;
+				.email-form-text{
 					font-size: 0.9em;
-					padding-left: 5px;
+					margin: -10px 32px 0px 32px;
+					line-height: 25px;
+					letter-spacing: 0px;
 				}
-				.fa{
-					margin: 13px 0px 0px 45px;
-					font-size: 1.8em;
+				#email-input{
+					margin: 55px 0px 0px 7px;
+					height: 46px;
+					width: 320px;
+					font-size: 1em;
 				}
-				.fa1{
-					margin-left: 100px;
-				}
-				.born-on{
-					margin-top: 33px;
-					font-size: 0.9em;
-				}
-				.month-drop{
-					width: 120px;
-					margin-left: 8px;
-				}
-				.day-drop{
-					width: 65px;
-					// margin-left: -10px;
-				}
-				.year-drop{
-					width: 75px;
-				}
-				.retire-drop{
-					width: 70px;
-					padding-left: 13px;
-					font-size: 1.1em;
-				}
-				.alarm-font{
-					font-size: 0.9em;
-					margin-top: 32px;
-				}
-				.start-now{
-					margin-top: 13px;
+				.email-submit-button{
+					margin-top: 74px;
 					width: 146px;
 					height: 40px;
 					font-size: 1em;
 					letter-spacing: 0.8px;
 				}
-		}
-		#email-form-wrapper{
-			margin-top: 5px;
-			width: 335px;
-			// right: -0px;
-			height: 510px;
-			padding-bottom: 50px;
-			.first-thing{
-				font-size: 1.5em;
-				line-height: 35px;
-				margin-top: 43px;
-				letter-spacing: 0.7px;
+				.have-account{
+					font-size: 0.67em;
+					margin-top: 13px;
+					padding-bottom: 0px;
+				}
+				#account-exists{
+					margin-top: -150px;
+					font-size: 0.7em;
+				}
+				.exclamation{
+					margin: -150px 250px 0px 0px;
+					width: 20px;
+				}
 			}
-			.email-form-text{
-				font-size: 0.9em;
-				margin: -10px 32px 0px 32px;
-				line-height: 25px;
-				letter-spacing: 0px;
-			}
-			#email-input{
-				margin: 55px 0px 0px 7px;
-				height: 46px;
-				width: 320px;
-				font-size: 1em;
-				// letter-spacing: 0px;
-			}
-			.email-submit-button{
-				margin-top: 74px;
-				width: 146px;
-				height: 40px;
-				font-size: 1em;
-				letter-spacing: 0.8px;
-			}
-			.have-account{
-				font-size: 0.67em;
-				margin-top: 13px;
-				padding-bottom: 0px;
-			}
-			#account-exists{
-				margin-top: -150px;
-				font-size: 0.7em;
-			}
-			.exclamation{
-				margin: -150px 250px 0px 0px;
-				width: 20px;
-
-			}
-		}
 	}
 	.third{
-		padding: 47px 10px 40px 10px;
+		padding: 34px 10px 40px 10px;
 			.disclaimer-header{
 				font-size: 1.68em;
 			}
 			.disclaimer-text{
 				font-size: 0.8em;
-				// margin-top: -2px;
 				line-height: 23px;
 			}
 	}
 	.fourth{
-		// margin-top: -110px;
 		padding-bottom: 43px;
 			.over{
 				font-size: 1.4em;
 			}
 			.over1{
 				margin-top: 85px;
-
 			}
 			.large{
 				font-size: 3em;
@@ -927,7 +770,6 @@ footer{
 			}
 			.exponent1{
 				top: -24px;
-				// right: 15px;
 			}
 			.assets{
 				font-size: 1.2em;
@@ -950,45 +792,30 @@ footer{
 			}
 	}
 	.fifth{
-		// padding: 0px 30px 0px 30px;
-		// @extend %absolute-center;
-		// @extend %absolute-center;
 		margin-left: -10px;
-		// width: 480px;
+		padding-bottom: 18px;
 		.employees-heading{
-			// margin-left: 15px;
 			font-size: 1.4em;
 			margin-top: -43px;
 			line-height: 32px;
 			letter-spacing: 1.4px;
-			padding-bottom: 23px;
-			// width: 380px;
+			padding-bottom: 20px;
 		}
-		
 		.logo-assets{
 			margin-top: 22px;
-			// margin-left: 20px;
-			// width: 480px;
-			// padding: 0;
 		}
 		li{
-			// position: absolute;
 			margin: 0px 27px 17px 27px;
 		}
 		img{
 			width: 80%;
 		}
-		// #apple{
-		// 	margin-left: 5px;
-		// }
 		#cisco{
 			margin-left: 50px;
 			width: 55%;
 		}
-
 	}
 	footer{
-		// padding-bottom: 0px;
 		.copywrite{
 			font-size: 0.6em;
 			margin-top: -13px;
@@ -1006,10 +833,6 @@ footer{
 // SMALL PHONE
 @media only screen and (max-width: 480px) {
   
-  %red-border {
-    outline-color: yellow;
-	}
-
 	.first{
 		height: 103px;
 		#blooom-logo{
@@ -1024,33 +847,31 @@ footer{
 	}
 	.second{
 		padding-top: 15px;
-		padding-bottom: 120px;
+		padding-bottom: 100px;
 			#start-your-free-headline{
 				margin: 0px !important;
 				line-height: 37px !important;
-				// margin-top: 
+				letter-spacing: 1.5px !important;
 			}
 			#start-your-free-text{
 				margin-top: 18px !important;
-				letter-spacing: 0.7px !important;
+				letter-spacing: 0.5px !important;
 			}
 			.esp{
-				margin-left: 0px !important;
-				margin-right: 0px !important;
+				margin: 40px 0px 0px 0px !important;
 			}
 			.name-font{
 				font-size: 1.15em !important;
 			}
 			.main-form{
-			margin-top: 80px !important;
-			width: 300px;
-			height: 675px;
+				margin-top: 100px !important;
+				width: 300px;
+				height: 675px;
 			}
 			.first-name-form{
-				margin-top: 13px !important;
+				margin: 13px 0px 0px 5px !important;
 				width: 320px !important;
 				max-width: 87% !important;
-				margin-left: 5px;
 				height: 45px !important;
 			}
 			.born-on{
@@ -1080,17 +901,14 @@ footer{
 				margin-left: 233px !important;
 			}
 			.fa2{
-				margin-left: -170px !important;
-				margin-top: 70px !important;
+				margin: 70px 0px 0px -170px !important;
 			}
 			.fa3{
-				margin-left: 100px !important;
-				margin-top: 15px !important;
+				margin: 15px 0px 0px 100px !important;
 			}
 			.alarm-font{
 				font-size: 1.1em !important;
-				margin-left: 0px !important;
-				margin-right: 0px !important;
+				margin: 32px 0px 0px 0px !important;
 				letter-spacing: 1.5px !important;
 			}
 			.retire-drop{
@@ -1105,16 +923,15 @@ footer{
 				font-size: 1.2em !important;
 			}
 			#email-form-wrapper{
-				padding-top: 55px;
+				padding-top: 52px;
 				width: 300px;
 				height: 675px;
 				.first-thing{
-					font-size: 1.4em !important;
+					font-size: 1.3em !important;
 					margin: 0px 25px 0px 25px;
 					letter-spacing: 2px;
 				}
 				.email-form-text{
-					// margin-top: 15px;
 					font-size: 1em;
 					line-height: 29px;
 					margin: 15px 20px 0px 20px;
@@ -1147,88 +964,76 @@ footer{
 					margin-top: 15px;
 				}
 			}
-			
-		// margin-top: 30px;
 	}
 	.third{
-		padding-bottom: 36px;
-		margin: 107px 23px 0px 23px;
-		.disclaimer-header{
-			font-size: 1.9em;
-			letter-spacing: 1px;
-		}
-		.disclaimer-text{
-			font-size: 0.9em;
-			letter-spacing: 0.5px;
-			line-height: 28px;
-		}
+		padding: 47px 0px 36px 0px;
+		// padding-bottom: 36px;
+		margin: 107px -5px 0px -5px;
+			.disclaimer-header{
+				font-size: 1.9em;
+				letter-spacing: 1px;
+			}
+			.disclaimer-text{
+				font-size: 0.9em;
+				letter-spacing: 0.5px;
+				line-height: 28px;
+			}
 	}
-
 	.fourth{
 		padding-bottom: 25px;
-		// margin: 0px 30px 0px 30px !important;
 		width: 300px;
-		.over{
-			font-size: 1.5em;
-		}
-		.over1{
-			margin-top: 68px;
-		}
-		.large{
-			font-size: 3.7em;
-			
-			// width: 150px;
-		}
-		.billion{
-			margin-top: -10px;
-			line-height: 80px;
-		}
-		.exponent{
-			margin-right: -20px;
-			// right: 10px !important;
-			// letter-spacing: 10px;
-		}
-		.exponent1{
-			top: -108px;
-			// right: -20px !important;
-			// right: 10px;
-		}
-		.exponent2{
-			top: -28px;
-		}
-		.assets{
-			font-size: 1.5em;
-			margin: 5px 20px 0px 20px;
-			letter-spacing: 1px;
-			line-height: 33px;
-		}
-		.underline1{
-			padding-top: 50px;
-			width: 200px;
-		}
-		.analyzed{
-			font-size: 1.5em;
-			margin-top: 10px;
-			// padding-bottom: 100px;
-		}
+			.over{
+				font-size: 1.5em;
+			}
+			.over1{
+				margin-top: 68px;
+			}
+			.large{
+				font-size: 3.7em;
+			}
+			.billion{
+				margin-top: -10px;
+				line-height: 80px;
+			}
+			.exponent{
+				margin-right: -20px;
+			}
+			.exponent1{
+				top: -108px;
+			}
+			.exponent2{
+				top: -28px;
+			}
+			.assets{
+				font-size: 1.5em;
+				margin: 5px 20px 0px 20px;
+				letter-spacing: 1px;
+				line-height: 33px;
+			}
+			.underline1{
+				padding-top: 50px;
+				width: 200px;
+			}
+			.analyzed{
+				font-size: 1.5em;
+				margin-top: 10px;
+			}
 	}
 	.fifth{
-		padding: 20px 0px 0px 0px;
+		padding: 20px 0px 5px 0px;
 		.employees-heading{
 			font-size: 1.7em;
-			margin: -73px 70px 0px 70px;
+			margin: -73px 30px 0px 30px;
 			line-height:38px;
 		}
 		.logo-assets{
 			margin-top: -10px;
 		}
-
 		img{
 			width: 100%;
 		}
 		li{
-			// position: absolute;
-			margin: 23px 14px 17px 14px;
+			margin: 23px 10px 17px 10px;
 		}
 		#cisco{
 			width: 70%;
@@ -1237,10 +1042,9 @@ footer{
 	footer{
 		.copywrite{
 			font-size: 0.7em;
-			margin-top: 12px;
+			margin-top: 7px;
 		}
 		.small-text{
-			// @extend %absolute-center;
 			font-size: 0.7em;
 			margin: -75px auto 0px auto;
 			right: 0;
@@ -1248,6 +1052,4 @@ footer{
 			left: 0;
 		}
 	}
-	
-  
 }

@@ -66,10 +66,6 @@ body {
 .light-font {
   color: #a7a7a7; }
 
-.fadeOut {
-  opacity: 0;
-  transition: opacity .2s linear; }
-
 .invalid-form {
   border-color: red; }
 
@@ -87,10 +83,10 @@ body {
   max-width: 1200px; }
   .first #blooom-logo {
     top: 10px;
-    left: 44px; }
+    left: 40px; }
   .first #banking-rates-logo {
     top: 20px;
-    right: 54px; }
+    right: 40px; }
   .first .top-logo {
     position: absolute; }
 
@@ -127,9 +123,6 @@ body {
       color: #a7a7a7; }
   .second .form-wrapper {
     left: -10px; }
-  .second .name-form-wrapper {
-    opacity: 1;
-    transition: opacity 0.2s linear; }
   .second .main-form {
     position: relative;
     top: 67px;
@@ -194,9 +187,7 @@ body {
     .second .main-form .esp {
       font-size: 2em;
       font-weight: 700;
-      margin-left: 50px;
-      margin-right: 50px;
-      margin-top: 42px;
+      margin: 43px 50px 0px 50px;
       line-height: 1.3; }
     .second .main-form .start-now {
       margin-top: 16px;
@@ -213,7 +204,7 @@ body {
     .second .main-form .first-name-form {
       margin-top: 10px;
       width: 400px;
-      max-width: 80%;
+      max-width: 85%;
       background-color: transparent;
       height: 46px;
       border-radius: 5px;
@@ -248,13 +239,11 @@ body {
       color: #a7a7a7; }
     .second .checkup-wrapper .pig-logo {
       display: block;
-      margin-right: auto;
-      margin-top: 63px;
-      margin-left: 32px; }
+      margin: 63px auto 0px 32px; }
   .second #email-form-wrapper {
     display: inline-block;
-    margin-left: 25px;
-    margin-right: 25px; }
+    margin: 0px 25px 0px 25px;
+    padding-bottom: 23px; }
     .second #email-form-wrapper .first-thing {
       margin-top: 38px;
       font-size: 1.9em;
@@ -262,17 +251,16 @@ body {
       line-height: 43px;
       color: #4b4b4b; }
     .second #email-form-wrapper .email-form-text {
+      margin: -3px 20px 0px 20px;
       color: #a7a7a7;
       font-size: 1.2em;
-      margin-top: -3px;
       line-height: 29px;
       font-weight: 100; }
     .second #email-form-wrapper .email-input {
-      margin-top: 54px;
+      margin: 70px 0px 0px 5px;
       color: #a7a7a7;
       height: 52px;
       width: 400px;
-      margin-left: 5px;
       border-radius: 5px;
       text-align: center;
       border: 1px solid #d0d0d0;
@@ -287,10 +275,9 @@ body {
   .second .email-submit-button {
     outline-color: transparent;
     outline-style: none;
-    margin-top: 72px;
+    margin: 72px 0px 0px 2px;
     width: 175px;
     height: 49px;
-    margin-left: 2px;
     border-radius: 5px;
     background: #d0d0d0;
     color: white;
@@ -301,16 +288,14 @@ body {
   .second #account-exists {
     position: relative;
     color: #d90122;
-    margin-top: -160px;
-    margin-left: 10px;
+    margin: -160px 0px 0px 10px;
     letter-spacing: 0.1px;
     font-size: 0.87em; }
     .second #account-exists .sign-in {
       color: #79b74d; }
   .second .exclamation {
     position: relative;
-    margin-top: -160px;
-    margin-right: 310px; }
+    margin: -160px 310px 0px 0px; }
   .second .have-account {
     margin-top: 15px;
     color: #a7a7a7;
@@ -319,9 +304,7 @@ body {
       color: #79b74d; }
 
 .third {
-  margin-left: 57px;
-  margin-right: 55px;
-  margin-top: 107px;
+  margin: 107px 55px 0px 57px;
   padding-bottom: 100px;
   border-bottom: 1px solid #d0d0d0; }
   .third a {
@@ -350,8 +333,7 @@ body {
     font-size: 7em;
     font-weight: 500; }
   .fourth .billion {
-    margin-top: -15px;
-    margin-left: 24px;
+    margin: -15px 0px 0px 24px;
     letter-spacing: 3.5px; }
   .fourth .exponent {
     color: #a7a7a7;
@@ -367,17 +349,14 @@ body {
   .fourth .underline1 {
     border-bottom: 1px solid #d0d0d0;
     width: 390px;
-    position: relative;
     margin: 0 auto; }
   .fourth .underline2 {
     border-bottom: 1px solid #d0d0d0;
     width: 1090px;
-    position: relative;
     margin: 0 auto; }
   .fourth .hundred-thousand {
     letter-spacing: 1.7px;
-    margin-left: 25px;
-    margin-top: -10px; }
+    margin: -10px 0px 0px 25px; }
   .fourth .exponent2 {
     top: -65px;
     left: 6px; }
@@ -391,13 +370,12 @@ body {
   text-align: center;
   max-width: 1090px;
   color: #4b4b4b;
-  padding-bottom: 15px; }
+  padding-bottom: 60px; }
   .fifth ul {
     margin-top: 50px; }
   .fifth li {
     display: inline-block;
-    margin-left: 51px;
-    margin-right: 51px; }
+    margin: 0px 51px 0px 51px; }
   .fifth .employees-heading {
     font-size: 2.7em;
     font-weight: 500;
@@ -411,9 +389,7 @@ footer {
   padding-top: 43px;
   width: 86%;
   position: absolute;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 30px auto 0px auto;
   left: 0;
   right: 0; }
   footer .copywrite {
@@ -440,13 +416,11 @@ footer {
     right: 0px; }
     .first #blooom-logo {
       top: 18px;
-      margin-left: auto;
-      margin-right: auto;
+      margin: 0px auto 0px auto;
       left: 0;
       right: 0; }
     .first #banking-rates-logo {
-      margin-left: auto;
-      margin-right: auto;
+      margin: 0px auto 0px auto;
       left: 0;
       right: 0;
       z-index: -10;
@@ -456,24 +430,24 @@ footer {
     top: 104px;
     padding-bottom: 70px; }
     .second .main-form {
+      top: 50px;
       width: 400px;
       right: -13px; }
       .second .main-form .esp {
         font-size: 1.85em;
-        margin-left: 2px;
-        margin-right: 2px;
-        margin-top: 30px;
+        margin: 50px 2px 0px 2px;
         letter-spacing: 0.8px;
         line-height: 43px; }
       .second .main-form .alarm-font {
-        margin-left: 40px;
-        margin-right: 40px; }
+        margin: 40px 40px 0px 40px; }
       .second .main-form .start-now {
         margin-top: 20px; }
     .second #email-wrapper {
       margin-top: -6px; }
     .second #email-form-wrapper {
-      margin: 0; }
+      margin: 0;
+      padding-top: 18px;
+      padding-bottom: 35px; }
       .second #email-form-wrapper .email-form-text {
         font-size: 1em;
         margin: -7px 10px 0px 10px;
@@ -495,18 +469,13 @@ footer {
       padding-right: 0px; }
       .second .checkup-wrapper .checkup-headline {
         font-size: 4em;
-        margin-top: -15px;
+        margin: -15px 0px 0px 40px;
         line-height: 75px;
-        margin-left: 37px;
-        margin-right: 0px;
-        letter-spacing: 1px;
-        margin-right: 30px; }
+        letter-spacing: 1px; }
       .second .checkup-wrapper .stacks {
         font-size: 1em;
-        margin-left: -25px;
-        margin-top: -25px;
-        letter-spacing: 0.5px;
-        margin-left: 40px; }
+        margin: -20px 0px 0px 43px;
+        letter-spacing: 0.3px; }
       .second .checkup-wrapper .pig-logo {
         position: absolute;
         width: 360px;
@@ -525,16 +494,18 @@ footer {
     margin-top: -30px;
     padding-bottom: 95px; }
 
-  .fifth .employees-heading {
-    font-size: 2.5em;
-    margin: 0px 40px 0px 40px;
-    padding-top: 92px;
-    letter-spacing: 2.7px;
-    line-height: 58px; }
-  .fifth ul {
-    margin-top: 30px; }
-  .fifth li {
-    margin: 20px 50px 20px 50px; }
+  .fifth {
+    padding-bottom: 60px; }
+    .fifth .employees-heading {
+      font-size: 2.5em;
+      margin: 0px 40px 0px 40px;
+      padding-top: 92px;
+      letter-spacing: 2.7px;
+      line-height: 58px; }
+    .fifth ul {
+      margin-top: 30px; }
+    .fifth li {
+      margin: 20px 50px 20px 50px; }
 
   footer {
     margin-top: 0px;
@@ -548,28 +519,23 @@ footer {
     height: 88px; }
     .first #blooom-logo {
       top: 18px;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: -10px;
+      margin: -10px auto 0px auto;
       width: 135px;
       left: 0;
       right: 0; }
     .first #banking-rates-logo {
-      margin-left: auto;
-      margin-right: auto;
+      margin: 33px auto 0px auto;
       left: 0;
       right: 0;
       z-index: -10;
-      margin-top: 42px;
-      width: 160px;
-      margin-top: 33px; }
+      width: 160px; }
 
   .second {
     padding-bottom: 110px; }
     .second #mobile-text-wrapper {
-      display: block; }
+      display: inline-block; }
     .second .main-form {
-      margin-top: 60px;
+      margin-top: 75px;
       width: 336px;
       right: -6px;
       padding-bottom: 50px; }
@@ -622,6 +588,7 @@ footer {
       margin-top: 5px;
       width: 335px;
       height: 510px;
+      padding-top: 0px;
       padding-bottom: 50px; }
       .second #email-form-wrapper .first-thing {
         font-size: 1.5em;
@@ -656,7 +623,7 @@ footer {
         width: 20px; }
 
   .third {
-    padding: 47px 10px 40px 10px; }
+    padding: 34px 10px 40px 10px; }
     .third .disclaimer-header {
       font-size: 1.68em; }
     .third .disclaimer-text {
@@ -693,13 +660,14 @@ footer {
       margin-top: 5px; }
 
   .fifth {
-    margin-left: -10px; }
+    margin-left: -10px;
+    padding-bottom: 18px; }
     .fifth .employees-heading {
       font-size: 1.4em;
       margin-top: -43px;
       line-height: 32px;
       letter-spacing: 1.4px;
-      padding-bottom: 23px; }
+      padding-bottom: 20px; }
     .fifth .logo-assets {
       margin-top: 22px; }
     .fifth li {
@@ -729,27 +697,26 @@ footer {
 
   .second {
     padding-top: 15px;
-    padding-bottom: 120px; }
+    padding-bottom: 100px; }
     .second #start-your-free-headline {
       margin: 0px !important;
-      line-height: 37px !important; }
+      line-height: 37px !important;
+      letter-spacing: 1.5px !important; }
     .second #start-your-free-text {
       margin-top: 18px !important;
-      letter-spacing: 0.7px !important; }
+      letter-spacing: 0.5px !important; }
     .second .esp {
-      margin-left: 0px !important;
-      margin-right: 0px !important; }
+      margin: 40px 0px 0px 0px !important; }
     .second .name-font {
       font-size: 1.15em !important; }
     .second .main-form {
-      margin-top: 80px !important;
+      margin-top: 100px !important;
       width: 300px;
       height: 675px; }
     .second .first-name-form {
-      margin-top: 13px !important;
+      margin: 13px 0px 0px 5px !important;
       width: 320px !important;
       max-width: 87% !important;
-      margin-left: 5px;
       height: 45px !important; }
     .second .born-on {
       font-size: 1.1em !important; }
@@ -771,15 +738,12 @@ footer {
     .second .fa1 {
       margin-left: 233px !important; }
     .second .fa2 {
-      margin-left: -170px !important;
-      margin-top: 70px !important; }
+      margin: 70px 0px 0px -170px !important; }
     .second .fa3 {
-      margin-left: 100px !important;
-      margin-top: 15px !important; }
+      margin: 15px 0px 0px 100px !important; }
     .second .alarm-font {
       font-size: 1.1em !important;
-      margin-left: 0px !important;
-      margin-right: 0px !important;
+      margin: 32px 0px 0px 0px !important;
       letter-spacing: 1.5px !important; }
     .second .retire-drop {
       margin-top: 10px !important;
@@ -791,11 +755,11 @@ footer {
       height: 50px !important;
       font-size: 1.2em !important; }
     .second #email-form-wrapper {
-      padding-top: 55px;
+      padding-top: 52px;
       width: 300px;
       height: 675px; }
       .second #email-form-wrapper .first-thing {
-        font-size: 1.4em !important;
+        font-size: 1.3em !important;
         margin: 0px 25px 0px 25px;
         letter-spacing: 2px; }
       .second #email-form-wrapper .email-form-text {
@@ -826,8 +790,8 @@ footer {
         margin-top: 15px; }
 
   .third {
-    padding-bottom: 36px;
-    margin: 107px 23px 0px 23px; }
+    padding: 47px 0px 36px 0px;
+    margin: 107px -5px 0px -5px; }
     .third .disclaimer-header {
       font-size: 1.9em;
       letter-spacing: 1px; }
@@ -867,23 +831,23 @@ footer {
       margin-top: 10px; }
 
   .fifth {
-    padding: 20px 0px 0px 0px; }
+    padding: 20px 0px 5px 0px; }
     .fifth .employees-heading {
       font-size: 1.7em;
-      margin: -73px 70px 0px 70px;
+      margin: -73px 30px 0px 30px;
       line-height: 38px; }
     .fifth .logo-assets {
       margin-top: -10px; }
     .fifth img {
       width: 100%; }
     .fifth li {
-      margin: 23px 14px 17px 14px; }
+      margin: 23px 10px 17px 10px; }
     .fifth #cisco {
       width: 70%; }
 
   footer .copywrite {
     font-size: 0.7em;
-    margin-top: 12px; }
+    margin-top: 7px; }
   footer .small-text {
     font-size: 0.7em;
     margin: -75px auto 0px auto;
