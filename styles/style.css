@@ -83,6 +83,7 @@ body {
   height: 73px;
   width: 100%;
   border-bottom: solid #d0d0d0 1px;
+  position: relative;
   max-width: 1200px; }
   .first #blooom-logo {
     top: 10px;
@@ -730,6 +731,7 @@ footer {
     padding-top: 15px;
     padding-bottom: 120px; }
     .second #start-your-free-headline {
+      margin: 0px !important;
       line-height: 37px !important; }
     .second #start-your-free-text {
       margin-top: 18px !important;

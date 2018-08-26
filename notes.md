@@ -28,3 +28,9 @@ $grid-breakpoints: (
 @include media-breakpoint-down(sm) { ... }
 @include media-breakpoint-down(md) { ... }
 @include media-breakpoint-down(lg) { ... }
+
+
+finish responsive
+fix js? and bonus
+fix class and id
+fixx sass, vendor prefixes
