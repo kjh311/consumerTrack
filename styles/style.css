@@ -830,6 +830,61 @@ footer {
     .third .disclaimer-text {
       font-size: 0.9em;
       letter-spacing: 0.5px;
-      line-height: 28px; } }
+      line-height: 28px; }
+
+  .fourth {
+    padding-bottom: 25px;
+    width: 300px; }
+    .fourth .over {
+      font-size: 1.5em; }
+    .fourth .over1 {
+      margin-top: 68px; }
+    .fourth .large {
+      font-size: 3.7em; }
+    .fourth .billion {
+      margin-top: -10px;
+      line-height: 80px; }
+    .fourth .exponent {
+      margin-right: -20px; }
+    .fourth .exponent1 {
+      top: -108px; }
+    .fourth .exponent2 {
+      top: -28px; }
+    .fourth .assets {
+      font-size: 1.5em;
+      margin: 5px 20px 0px 20px;
+      letter-spacing: 1px;
+      line-height: 33px; }
+    .fourth .underline1 {
+      padding-top: 50px;
+      width: 200px; }
+    .fourth .analyzed {
+      font-size: 1.5em;
+      margin-top: 10px; }
+
+  .fifth {
+    padding: 20px 0px 0px 0px; }
+    .fifth .employees-heading {
+      font-size: 1.7em;
+      margin: -73px 70px 0px 70px;
+      line-height: 38px; }
+    .fifth .logo-assets {
+      margin-top: -10px; }
+    .fifth img {
+      width: 100%; }
+    .fifth li {
+      margin: 23px 14px 17px 14px; }
+    .fifth #cisco {
+      width: 70%; }
+
+  footer .copywrite {
+    font-size: 0.7em;
+    margin-top: 12px; }
+  footer .small-text {
+    font-size: 0.7em;
+    margin: -75px auto 0px auto;
+    right: 0;
+    text-align: center;
+    left: 0; } }
 
 /*# sourceMappingURL=style.css.map */
