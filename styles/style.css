@@ -808,10 +808,12 @@ footer {
       .second #email-form-wrapper #account-exists {
         font-size: 0.9em !important;
         margin-left: 57px !important;
+        top: -28px;
         text-align: left; }
       .second #email-form-wrapper .exclamation {
         width: 20px !important;
-        left: 20px; }
+        left: 20px;
+        top: -30px; }
       .second #email-form-wrapper .email-submit-button {
         margin-top: 90px;
         width: 170px;
