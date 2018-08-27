@@ -141,7 +141,7 @@ body {
         border: 1px solid $border;
         margin: 0 auto;
         max-width: 489px;
-        padding-bottom: 60px;
+        padding-bottom: 58px;
         -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.07);
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.07);
 
@@ -314,7 +314,7 @@ body {
     #email-form-wrapper {
         display: inline-block;
         margin: 0px 25px 0px 25px;
-        padding-bottom: 165px;
+        padding-bottom: 25px;
 
         #first-thing {
             margin-top: 38px;
@@ -401,6 +401,7 @@ body {
 #third {
     margin: 107px 55px 0px 57px;
     padding-bottom: 100px;
+    padding-right: 10px;
     border-bottom: 1px solid $border;
 
     a {
@@ -583,9 +584,11 @@ footer {
         padding-bottom: 70px;
 
         #main-form {
-            top: 50px;
+            top: 49px;
             width: 400px;
             right: -13px;
+            // padding-top: 17px;
+            padding-bottom: 60px;
 
             .drop{
             	margin-top: 8px;
@@ -596,6 +599,10 @@ footer {
                 margin: 50px 2px 0px 2px;
                 letter-spacing: 0.8px;
                 line-height: 43px;
+            }
+
+            #retire-drop{
+            	margin-top: 12px;
             }
 
             .alarm-font {
@@ -613,8 +620,8 @@ footer {
 
         #email-form-wrapper {
             margin: 0;
-            padding-top: 18px;
-            padding-bottom: 185px;
+            padding-top: 25px;
+            padding-bottom: 40px;
 
             #first-thing{
             	margin-top: 30px;
@@ -684,6 +691,11 @@ footer {
 
         #disclaimer-text {
             margin-top: 20px;
+        }
+
+        .exponent1{
+        	left: 20px;
+        	top: -5px;
         }
     }
 
@@ -866,10 +878,11 @@ footer {
         }
 
         #email-form-wrapper {
-            margin-top: 5px;
+            // margin-top: 5px;
             width: 290px;
-            height: 460px;
-            padding-top: 0px;
+            // height: 460px;
+            padding-top: 7px;
+            padding-bottom: 25px;
             #first-thing {
                 font-size: 1.3em;
                 line-height: 30px;
@@ -920,7 +933,7 @@ footer {
     }
 
     #third {
-        padding: 42px 10px 34px 10px;
+        padding: 40px 10px 34px 10px;
 
         #disclaimer-header {
             font-size: 1.4em;
@@ -953,7 +966,6 @@ footer {
         .exponent {
             left: 5px;
         }
-
         .exponent1 {
             top: -20px;
         }
@@ -1051,201 +1063,243 @@ footer {
 /////////////////
 @media only screen and (max-width: 411px) {
     #first {
-        height: 103px;
+        height: 120px;
 
         #blooom-logo {
-            width: 160px;
+            width: 190px;
             margin-top: -5px;
         }
 
         #banking-rates-logo {
-            width: 195px;
-            margin-top: 40px;
+            width: 225px;
+            margin-top: 50px;
         }
     }
 
     #second {
-        padding-top: 15px;
-        padding-bottom: 100px;
+        padding-top: 52px;
+        padding-bottom: 115px;
 
         #start-your-free-headline {
-            margin: 0px !important;
-            line-height: 37px !important;
-            letter-spacing: 1.5px !important;
+        	// width: 330px;
+        	// margin-left: 0;
+        	// margin-right: 0;
+            margin-top: -17px !important;
+            line-height: 45px !important;
+            letter-spacing: 2px !important;
+            font-size: 1.95em !important;
         }
 
         #start-your-free-text {
-            margin-top: 18px !important;
-            letter-spacing: 0.5px !important;
+        	
+            margin-top: 23px !important;
+            letter-spacing: 1px !important;
+            font-size: 1em !important;
         }
 
         .esp {
-            margin: 40px 0px 0px 0px !important;
+        	font-size: 1.5em !important;
+        	line-height: 34px !important;
+            margin: 56px 0px 0px 0px !important;
         }
 
         .name-font {
             font-size: 1.15em !important;
+            position: absolute;
+            margin-left: auto;
+		    margin-right: auto;
+		    right: 0;
+		    left: 0;
+            top: 210px !important;
         }
 
         #main-form {
-            margin-top: 100px !important;
-            width: 300px;
-            height: 675px;
+            margin-top: 105px !important;
+            width: 350px;
+            height: 793px;
+            // padding-bottom: 7px;
+        }
+
+        .name-font{
+        	margin-top: -30px !important;
+        	font-size: 1.4em !important;
         }
 
         #first-name-form {
-            margin: 13px 0px 0px 5px !important;
+            margin: 55px 0px 0px 5px !important;
             width: 320px !important;
             max-width: 87% !important;
-            height: 45px !important;
+            height: 55px !important;
         }
 
         .born-on {
-            font-size: 1.1em !important;
+            font-size: 1.5em !important;
+            margin-top: 35px !important;
         }
 
         .drop {
-            height: 45px !important;
-            font-size: 1.3em !important;
+            height: 51px !important;
+            font-size: 1.4em !important;
             padding-left: 10px !important;
             margin-top: 7px !important;
         }
 
         #month-drop {
             margin-top: 10px !important;
-            width: 260px !important;
+            width: 300px !important;
         }
 
         #day-drop {
-            width: 126px !important;
+            width: 148px !important;
         }
 
         #year-drop {
-            width: 126px !important;
+            width: 148px !important;
             padding-left: 15px !important;
         }
 
         .fa {
+        	font-size: 2.1em !important;
             margin-top: 17px !important;
         }
 
         .fa1 {
-            margin-left: 233px !important;
+            margin-left: 270px !important;
         }
 
         .fa2 {
-            margin: 70px 0px 0px -170px !important;
+            margin: 78px 0px 0px -195px !important;
         }
 
         .fa3 {
-            margin: 15px 0px 0px 100px !important;
+            margin: 17px 0px 0px 112px !important;
+        }
+
+        .fa4{
+        	margin-left: 60px !important;
         }
 
         .alarm-font {
-            font-size: 1.1em !important;
-            margin: 32px 0px 0px 0px !important;
-            letter-spacing: 1.5px !important;
+        	max-width: 380px !important;
+            font-size: 1.4em !important;
+            margin: 37px 0px 0px 0px !important;
+            letter-spacing: 0px !important;
         }
 
         #retire-drop {
             margin-top: 10px !important;
-            width: 76px !important;
-            height: 42px !important;
+            font-size: 1.5em !important;
+            width: 90px !important;
+            height: 50px !important;
+
         }
 
         #start-now {
-            margin-top: 16px !important;
-            width: 175px !important;
-            height: 50px !important;
-            font-size: 1.2em !important;
+            margin-top: 20px !important;
+            width: 205px !important;
+            height: 60px !important;
+            font-size: 1.7em !important;
         }
 
         #email-form-wrapper {
-            padding-top: 52px;
+            padding-top: 57px;
             width: 300px;
             height: 675px;
 
             #first-thing {
-                font-size: 1.3em !important;
-                margin: 0px 25px 0px 25px;
+                font-size: 1.6em !important;
+                margin: 15px 10px 0px 10px;
                 letter-spacing: 2px;
+                line-height: 40px;
             }
 
             .email-form-text {
-                font-size: 1em;
-                line-height: 29px;
-                margin: 15px 20px 0px 20px;
+                font-size: 1.1em;
+                line-height: 34px;
+                margin: 18px 0px 0px 0px;
+                letter-spacing: 0.3px;
             }
 
-            .email-input {
-                margin-top: 49px !important;
-                height: 52px !important;
-                width: 320px !important;
-                max-width: 86% !important;
+            #email-input {
+                margin-top: 59px !important;
+                height: 60px !important;
+                width: 98% !important;
+                font-size: 1.5em !important;
+                max-width: 425px !important;
             }
 
             #account-exists {
-                font-size: 0.9em !important;
-                margin-left: 57px !important;
+                font-size: 1em !important;
+                margin: -200px 0px 0px 45px !important;
                 top: -28px;
                 text-align: left;
             }
 
             #exclamation {
-                width: 20px !important;
-                left: 20px;
-                top: -30px;
+                
+                left: -17px;
+                top: -73px;
+                width: 25px !important;
             }
 
             #email-submit-button {
-                margin-top: 90px;
-                width: 170px;
-                height: 48px;
+                margin-top: 105px;
+                width: 200px;
+                height: 58px;
                 font-size: 1.3em;
             }
 
             #have-account {
-                font-size: 0.85em;
+                font-size: 1em;
                 margin-top: 15px;
             }
         }
     }
 
     #third {
-        padding: 47px 0px 36px 0px;
-        margin: 107px -5px 0px -5px;
+        padding: 50px 0px 42px 0px;
+        margin: 107px 7px 0px 7px;
 
         #disclaimer-header {
-            font-size: 1.9em;
+            font-size: 2.2em;
             letter-spacing: 1px;
         }
 
         #disclaimer-text {
-            font-size: 0.9em;
+            font-size: 1.1em;
+            margin-top: 25px;
             letter-spacing: 0.5px;
-            line-height: 28px;
+            line-height: 33px;
         }
     }
 
     #fourth {
-        padding-bottom: 25px;
+        padding-bottom: 30px;
         width: 300px;
 
         .over {
-            font-size: 1.5em;
+
+            font-size: 1.9em;
         }
 
         .over1 {
-            margin-top: 68px;
+            margin-top: 73px;
+        }
+
+        .over2 {
+            margin-top: 42px;
         }
 
         .large {
-            font-size: 3.7em;
+            font-size: 4.5em;
         }
 
         .billion {
             margin-top: -10px;
-            line-height: 80px;
+            line-height: 95px;
+        }
+        .hundred-thousand{
+        	margin-top: -15px;
         }
 
         .exponent {
@@ -1253,66 +1307,82 @@ footer {
         }
 
         .exponent1 {
-            top: -108px;
+            top: -130px;
+            left: -23px;
         }
 
         .exponent2 {
-            top: -28px;
+            top: -36px;
+            left: -14px;
         }
 
         #assets {
-            font-size: 1.5em;
+            font-size: 1.8em;
             margin: 5px 20px 0px 20px;
             letter-spacing: 1px;
-            line-height: 33px;
+            line-height: 38px;
         }
 
         #underline1 {
-            padding-top: 50px;
+            padding-top: 70px;
             width: 200px;
         }
 
         #analyzed {
-            font-size: 1.5em;
-            margin-top: 10px;
+            font-size: 1.8em;
+            margin-top: 8px;
         }
     }
 
     #fifth {
-        padding: 20px 0px 5px 0px;
+        padding: 20px 0px 283px 0px;
 
         #employees-heading {
-            font-size: 1.7em;
-            margin: -73px 30px 0px 30px;
-            line-height: 38px;
+            font-size: 2em;
+            margin: -65px 50px 0px 50px;
+            line-height: 44px;
+            letter-spacing: 1.5px;
+            // width: 290px;
         }
 
-        #logo-assets {
-            margin-top: -10px;
+        #linkedin{
+        	width: 137px;
+        	margin: 3px 0px 0px -170px;
         }
 
-        img {
-            width: 100%;
+        #amazon{
+        	width: 145px;
+        	margin: 4px 0px 0px 10px;
         }
 
-        li {
-            margin: 23px 10px 17px 10px;
+        #apple{
+        	width: 55px;
+        	margin: 83px 0px 0px -193px;
+        }
+
+        #oracle{
+        	// display: none;
+        	width: 145px;
+        	margin: 192px 0px 0px -70px;
         }
 
         #cisco {
-            width: 70%;
+            // width: 70%;
+            // display: none;
+            width: 115px;
+        	margin: 88px 0px 0px 12px;
         }
     }
 
     footer {
         #copywrite {
-            font-size: 0.7em;
-            margin-top: 7px;
+            font-size: 0.85em;
+            margin-top: 14px;
         }
 
         #small-text {
-            font-size: 0.7em;
-            margin: -75px auto 0px auto;
+            font-size: 0.85em;
+            margin: -88px auto 0px auto;
             right: 0;
             text-align: center;
             left: 0;

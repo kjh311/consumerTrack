@@ -137,7 +137,7 @@ body {
     border: 1px solid #d0d0d0;
     margin: 0 auto;
     max-width: 489px;
-    padding-bottom: 60px;
+    padding-bottom: 58px;
     -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.07);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.07); }
     #second #main-form select {
@@ -254,7 +254,7 @@ body {
   #second #email-form-wrapper {
     display: inline-block;
     margin: 0px 25px 0px 25px;
-    padding-bottom: 165px; }
+    padding-bottom: 25px; }
     #second #email-form-wrapper #first-thing {
       margin-top: 38px;
       font-size: 1.9em;
@@ -317,6 +317,7 @@ body {
 #third {
   margin: 107px 55px 0px 57px;
   padding-bottom: 100px;
+  padding-right: 10px;
   border-bottom: 1px solid #d0d0d0; }
   #third a {
     color: #79b74d; }
@@ -443,9 +444,10 @@ footer {
     top: 104px;
     padding-bottom: 70px; }
     #second #main-form {
-      top: 50px;
+      top: 49px;
       width: 400px;
-      right: -13px; }
+      right: -13px;
+      padding-bottom: 60px; }
       #second #main-form .drop {
         margin-top: 8px; }
       #second #main-form .esp {
@@ -453,6 +455,8 @@ footer {
         margin: 50px 2px 0px 2px;
         letter-spacing: 0.8px;
         line-height: 43px; }
+      #second #main-form #retire-drop {
+        margin-top: 12px; }
       #second #main-form .alarm-font {
         margin: 40px 40px 0px 40px; }
       #second #main-form #start-now {
@@ -461,8 +465,8 @@ footer {
       margin-top: -6px; }
     #second #email-form-wrapper {
       margin: 0;
-      padding-top: 18px;
-      padding-bottom: 185px; }
+      padding-top: 25px;
+      padding-bottom: 40px; }
       #second #email-form-wrapper #first-thing {
         margin-top: 30px; }
       #second #email-form-wrapper .email-form-text {
@@ -506,6 +510,9 @@ footer {
     margin-top: 110px; }
     #third #disclaimer-text {
       margin-top: 20px; }
+    #third .exponent1 {
+      left: 20px;
+      top: -5px; }
 
   #fourth {
     margin-top: -30px;
@@ -622,10 +629,9 @@ footer {
         font-size: 0.8em;
         letter-spacing: 0.8px; }
     #second #email-form-wrapper {
-      margin-top: 5px;
       width: 290px;
-      height: 460px;
-      padding-top: 0px; }
+      padding-top: 7px;
+      padding-bottom: 25px; }
       #second #email-form-wrapper #first-thing {
         font-size: 1.3em;
         line-height: 30px;
@@ -661,7 +667,7 @@ footer {
         width: 15px; }
 
   #third {
-    padding: 42px 10px 34px 10px; }
+    padding: 40px 10px 34px 10px; }
     #third #disclaimer-header {
       font-size: 1.4em; }
     #third #disclaimer-text {
@@ -741,170 +747,207 @@ footer {
     right: 15px; } }
 @media only screen and (max-width: 411px) {
   #first {
-    height: 103px; }
+    height: 120px; }
     #first #blooom-logo {
-      width: 160px;
+      width: 190px;
       margin-top: -5px; }
     #first #banking-rates-logo {
-      width: 195px;
-      margin-top: 40px; }
+      width: 225px;
+      margin-top: 50px; }
 
   #second {
-    padding-top: 15px;
-    padding-bottom: 100px; }
+    padding-top: 52px;
+    padding-bottom: 115px; }
     #second #start-your-free-headline {
-      margin: 0px !important;
-      line-height: 37px !important;
-      letter-spacing: 1.5px !important; }
+      margin-top: -17px !important;
+      line-height: 45px !important;
+      letter-spacing: 2px !important;
+      font-size: 1.95em !important; }
     #second #start-your-free-text {
-      margin-top: 18px !important;
-      letter-spacing: 0.5px !important; }
+      margin-top: 23px !important;
+      letter-spacing: 1px !important;
+      font-size: 1em !important; }
     #second .esp {
-      margin: 40px 0px 0px 0px !important; }
+      font-size: 1.5em !important;
+      line-height: 34px !important;
+      margin: 56px 0px 0px 0px !important; }
     #second .name-font {
-      font-size: 1.15em !important; }
+      font-size: 1.15em !important;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      right: 0;
+      left: 0;
+      top: 210px !important; }
     #second #main-form {
-      margin-top: 100px !important;
-      width: 300px;
-      height: 675px; }
+      margin-top: 105px !important;
+      width: 350px;
+      height: 793px; }
+    #second .name-font {
+      margin-top: -30px !important;
+      font-size: 1.4em !important; }
     #second #first-name-form {
-      margin: 13px 0px 0px 5px !important;
+      margin: 55px 0px 0px 5px !important;
       width: 320px !important;
       max-width: 87% !important;
-      height: 45px !important; }
+      height: 55px !important; }
     #second .born-on {
-      font-size: 1.1em !important; }
+      font-size: 1.5em !important;
+      margin-top: 35px !important; }
     #second .drop {
-      height: 45px !important;
-      font-size: 1.3em !important;
+      height: 51px !important;
+      font-size: 1.4em !important;
       padding-left: 10px !important;
       margin-top: 7px !important; }
     #second #month-drop {
       margin-top: 10px !important;
-      width: 260px !important; }
+      width: 300px !important; }
     #second #day-drop {
-      width: 126px !important; }
+      width: 148px !important; }
     #second #year-drop {
-      width: 126px !important;
+      width: 148px !important;
       padding-left: 15px !important; }
     #second .fa {
+      font-size: 2.1em !important;
       margin-top: 17px !important; }
     #second .fa1 {
-      margin-left: 233px !important; }
+      margin-left: 270px !important; }
     #second .fa2 {
-      margin: 70px 0px 0px -170px !important; }
+      margin: 78px 0px 0px -195px !important; }
     #second .fa3 {
-      margin: 15px 0px 0px 100px !important; }
+      margin: 17px 0px 0px 112px !important; }
+    #second .fa4 {
+      margin-left: 60px !important; }
     #second .alarm-font {
-      font-size: 1.1em !important;
-      margin: 32px 0px 0px 0px !important;
-      letter-spacing: 1.5px !important; }
+      max-width: 380px !important;
+      font-size: 1.4em !important;
+      margin: 37px 0px 0px 0px !important;
+      letter-spacing: 0px !important; }
     #second #retire-drop {
       margin-top: 10px !important;
-      width: 76px !important;
-      height: 42px !important; }
+      font-size: 1.5em !important;
+      width: 90px !important;
+      height: 50px !important; }
     #second #start-now {
-      margin-top: 16px !important;
-      width: 175px !important;
-      height: 50px !important;
-      font-size: 1.2em !important; }
+      margin-top: 20px !important;
+      width: 205px !important;
+      height: 60px !important;
+      font-size: 1.7em !important; }
     #second #email-form-wrapper {
-      padding-top: 52px;
+      padding-top: 57px;
       width: 300px;
       height: 675px; }
       #second #email-form-wrapper #first-thing {
-        font-size: 1.3em !important;
-        margin: 0px 25px 0px 25px;
-        letter-spacing: 2px; }
+        font-size: 1.6em !important;
+        margin: 15px 10px 0px 10px;
+        letter-spacing: 2px;
+        line-height: 40px; }
       #second #email-form-wrapper .email-form-text {
-        font-size: 1em;
-        line-height: 29px;
-        margin: 15px 20px 0px 20px; }
-      #second #email-form-wrapper .email-input {
-        margin-top: 49px !important;
-        height: 52px !important;
-        width: 320px !important;
-        max-width: 86% !important; }
+        font-size: 1.1em;
+        line-height: 34px;
+        margin: 18px 0px 0px 0px;
+        letter-spacing: 0.3px; }
+      #second #email-form-wrapper #email-input {
+        margin-top: 59px !important;
+        height: 60px !important;
+        width: 98% !important;
+        font-size: 1.5em !important;
+        max-width: 425px !important; }
       #second #email-form-wrapper #account-exists {
-        font-size: 0.9em !important;
-        margin-left: 57px !important;
+        font-size: 1em !important;
+        margin: -200px 0px 0px 45px !important;
         top: -28px;
         text-align: left; }
       #second #email-form-wrapper #exclamation {
-        width: 20px !important;
-        left: 20px;
-        top: -30px; }
+        left: -17px;
+        top: -73px;
+        width: 25px !important; }
       #second #email-form-wrapper #email-submit-button {
-        margin-top: 90px;
-        width: 170px;
-        height: 48px;
+        margin-top: 105px;
+        width: 200px;
+        height: 58px;
         font-size: 1.3em; }
       #second #email-form-wrapper #have-account {
-        font-size: 0.85em;
+        font-size: 1em;
         margin-top: 15px; }
 
   #third {
-    padding: 47px 0px 36px 0px;
-    margin: 107px -5px 0px -5px; }
+    padding: 50px 0px 42px 0px;
+    margin: 107px 7px 0px 7px; }
     #third #disclaimer-header {
-      font-size: 1.9em;
+      font-size: 2.2em;
       letter-spacing: 1px; }
     #third #disclaimer-text {
-      font-size: 0.9em;
+      font-size: 1.1em;
+      margin-top: 25px;
       letter-spacing: 0.5px;
-      line-height: 28px; }
+      line-height: 33px; }
 
   #fourth {
-    padding-bottom: 25px;
+    padding-bottom: 30px;
     width: 300px; }
     #fourth .over {
-      font-size: 1.5em; }
+      font-size: 1.9em; }
     #fourth .over1 {
-      margin-top: 68px; }
+      margin-top: 73px; }
+    #fourth .over2 {
+      margin-top: 42px; }
     #fourth .large {
-      font-size: 3.7em; }
+      font-size: 4.5em; }
     #fourth .billion {
       margin-top: -10px;
-      line-height: 80px; }
+      line-height: 95px; }
+    #fourth .hundred-thousand {
+      margin-top: -15px; }
     #fourth .exponent {
       margin-right: -20px; }
     #fourth .exponent1 {
-      top: -108px; }
+      top: -130px;
+      left: -23px; }
     #fourth .exponent2 {
-      top: -28px; }
+      top: -36px;
+      left: -14px; }
     #fourth #assets {
-      font-size: 1.5em;
+      font-size: 1.8em;
       margin: 5px 20px 0px 20px;
       letter-spacing: 1px;
-      line-height: 33px; }
+      line-height: 38px; }
     #fourth #underline1 {
-      padding-top: 50px;
+      padding-top: 70px;
       width: 200px; }
     #fourth #analyzed {
-      font-size: 1.5em;
-      margin-top: 10px; }
+      font-size: 1.8em;
+      margin-top: 8px; }
 
   #fifth {
-    padding: 20px 0px 5px 0px; }
+    padding: 20px 0px 283px 0px; }
     #fifth #employees-heading {
-      font-size: 1.7em;
-      margin: -73px 30px 0px 30px;
-      line-height: 38px; }
-    #fifth #logo-assets {
-      margin-top: -10px; }
-    #fifth img {
-      width: 100%; }
-    #fifth li {
-      margin: 23px 10px 17px 10px; }
+      font-size: 2em;
+      margin: -65px 50px 0px 50px;
+      line-height: 44px;
+      letter-spacing: 1.5px; }
+    #fifth #linkedin {
+      width: 137px;
+      margin: 3px 0px 0px -170px; }
+    #fifth #amazon {
+      width: 145px;
+      margin: 4px 0px 0px 10px; }
+    #fifth #apple {
+      width: 55px;
+      margin: 83px 0px 0px -193px; }
+    #fifth #oracle {
+      width: 145px;
+      margin: 192px 0px 0px -70px; }
     #fifth #cisco {
-      width: 70%; }
+      width: 115px;
+      margin: 88px 0px 0px 12px; }
 
   footer #copywrite {
-    font-size: 0.7em;
-    margin-top: 7px; }
+    font-size: 0.85em;
+    margin-top: 14px; }
   footer #small-text {
-    font-size: 0.7em;
-    margin: -75px auto 0px auto;
+    font-size: 0.85em;
+    margin: -88px auto 0px auto;
     right: 0;
     text-align: center;
     left: 0; } }
