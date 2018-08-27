@@ -8,12 +8,25 @@ $dark-font: #4b4b4b;
 $red-font: #d90122;
 $border: #d0d0d0;
 
+
+
 %absolute-center {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
     right: 0;
     left: 0;
+}
+// ERASE//
+.mockup{
+	position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+	top: 0;
+	z-index: 100;
+	opacity: 0.7 !important;
 }
 
 //FONTS
@@ -96,8 +109,12 @@ body {
 
     #mobile-text-wrapper {
         display: none;
-
-        @extend %absolute-center;
+        position: absolute;
+	    margin-left: auto;
+	    margin-right: auto;
+	    right: 0;
+	    left: 0;
+     // @extend %absolute-center;
 
         #start-your-free-headline {
             font-size: 1.8em;
@@ -297,7 +314,7 @@ body {
     #email-form-wrapper {
         display: inline-block;
         margin: 0px 25px 0px 25px;
-        padding-bottom: 23px;
+        padding-bottom: 165px;
 
         #first-thing {
             margin-top: 38px;
@@ -356,7 +373,7 @@ body {
     #account-exists {
         position: relative;
         color: $red-font;
-        margin: -160px 0px 0px 10px;
+        margin: -185px 0px 0px 10px;
         letter-spacing: 0.1px;
         font-size: 0.87em;
 
@@ -367,7 +384,7 @@ body {
 
     #exclamation {
         position: relative;
-        margin: -160px 310px 0px 0px;
+        margin: -325px 310px 0px 0px;
     }
 
     #have-account {
@@ -570,6 +587,10 @@ footer {
             width: 400px;
             right: -13px;
 
+            .drop{
+            	margin-top: 8px;
+            }
+
             .esp {
                 font-size: 1.85em;
                 margin: 50px 2px 0px 2px;
@@ -593,12 +614,16 @@ footer {
         #email-form-wrapper {
             margin: 0;
             padding-top: 18px;
-            padding-bottom: 35px;
+            padding-bottom: 185px;
+
+            #first-thing{
+            	margin-top: 30px;
+            }
 
             .email-form-text {
                 font-size: 1em;
                 margin: -7px 10px 0px 10px;
-                letter-spacing: 0.5px;
+                letter-spacing: 0.2px;
             }
 
             #email-input {
@@ -615,11 +640,11 @@ footer {
             }
 
             #account-exists {
-                margin: -167px 0px 0px 20px;
+                margin: -190px 0px 0px 20px;
             }
 
             #exclamation {
-                margin-top: -167px;
+                margin-top: -337px;
                 margin-left: 15px;
             }
         }
@@ -706,190 +731,221 @@ footer {
 /////////////////
 @media only screen and (max-width: 767px) {
     #first {
-        height: 88px;
+        height: 75px;
 
         #blooom-logo {
             top: 18px;
             margin: -10px auto 0px auto;
-            width: 135px;
+            width: 117px;
             left: 0;
             right: 0;
         }
 
         #banking-rates-logo {
-            margin: 33px auto 0px auto;
+            margin: 25px auto 0px auto;
             left: 0;
             right: 0;
             z-index: -10;
-            width: 160px;
+            width: 140px;
         }
     }
 
     #second {
-        padding-bottom: 110px;
+        padding-bottom: 85px;
 
         #mobile-text-wrapper {
             display: inline-block;
+            max-width: 400px;
+        }
+
+        #start-your-free-headline {
+            font-size: 1.5em !important;
+            margin-top: -10px !important;
+            line-height: 28px !important; 
+        }
+
+        #start-your-free-text {
+            font-size: 0.75em !important;
         }
 
         #main-form {
-            margin-top: 75px;
-            width: 336px;
+            margin-top: 43px;
+            width: 288px;
             right: -6px;
-            padding-bottom: 50px;
+            padding-top: 0px;
+            padding-bottom: 20px;
 
             .esp {
-                font-size: 1.5em;
+                font-size: 1.25em;
                 font-weight: 300;
-                margin: 40px 20px 0px 20px;
+                margin: 37px 20px 0px 20px;
                 letter-spacing: 1.5px;
-                line-height: 36px;
+                line-height: 30px;
+            }
+
+            .name-form{
+            	margin-top: 23px;
+            	padding-bottom: 25px;
             }
 
             .name-font {
-                font-size: 0.95em;
-                margin-top: -20px;
+                font-size: 0.8em;
+                margin-top: -60px;
             }
 
             #first-name-form {
-                margin-top: 0px;
-                height: 37px;
+                margin-top: 5px;
+                height: 34px;
+                max-width: 82%;
             }
 
             .drop {
-                height: 35px;
-                margin-top: 10px;
-                font-size: 0.9em;
+                height: 33px;
+                margin-top: 5px;
+                font-size: 0.8em;
                 padding-left: 5px;
             }
 
             .fa {
-                margin: 13px 0px 0px 45px;
-                font-size: 1.8em;
+                margin: 9px 0px 0px 45px;
+                font-size: 1.5em;
             }
 
             .fa1 {
-                margin-left: 100px;
+                margin-left: 87px;
+            }
+
+            .fa2 {
+                margin-left: 37px;
+            }
+
+            .fa4{
+            	margin-left: 35px;
             }
 
             .born-on {
-                margin-top: 33px;
-                font-size: 0.9em;
+                margin-top: 28px;
+                font-size: 0.8em;
             }
 
             #month-drop {
-                width: 120px;
-                margin-left: 8px;
+                width: 105px;
+                margin-left: 7px;
             }
 
             #day-drop {
-                width: 65px;
+                width: 55px;
+                margin-left: 2px;
             }
 
             #year-drop {
-                width: 75px;
+                width: 65px;
+                margin-left: 2px;
             }
 
             #retire-drop {
-                width: 70px;
+            	margin-top: 7px;
+                width: 55px;
                 padding-left: 13px;
-                font-size: 1.1em;
+                font-size: 0.8em;
+                height: 30px;
             }
 
             .alarm-font {
-                font-size: 0.9em;
-                margin-top: 32px;
+                font-size: 0.8em;
+                margin-top: 25px;
             }
 
             #start-now {
-                margin-top: 13px;
-                width: 146px;
-                height: 40px;
-                font-size: 1em;
+                margin-top: 8px;
+                width: 124px;
+                height: 35px;
+                font-size: 0.8em;
                 letter-spacing: 0.8px;
             }
         }
 
         #email-form-wrapper {
             margin-top: 5px;
-            width: 335px;
-            height: 510px;
+            width: 290px;
+            height: 460px;
             padding-top: 0px;
-            padding-bottom: 50px;
-
             #first-thing {
-                font-size: 1.5em;
-                line-height: 35px;
-                margin-top: 43px;
-                letter-spacing: 0.7px;
+                font-size: 1.3em;
+                line-height: 30px;
+                margin-top: 37px;
+                letter-spacing: 0.5px;
             }
 
             .email-form-text {
-                font-size: 0.9em;
+                font-size: 0.75em;
                 margin: -10px 32px 0px 32px;
-                line-height: 25px;
-                letter-spacing: 0px;
+                line-height: 21px;
+                letter-spacing: 0.1px;
             }
 
             #email-input {
-                margin: 55px 0px 0px 7px;
-                height: 46px;
-                width: 320px;
-                font-size: 1em;
+                margin: 51px 0px 0px 7px;
+                height: 38px;
+                width: 324px;
+                max-width: 81%;
+                font-size: 0.8em;
             }
 
             #email-submit-button {
-                margin-top: 74px;
-                width: 146px;
-                height: 40px;
+                margin-top: 64px;
+                width: 124px;
+                height: 35px;
                 font-size: 1em;
                 letter-spacing: 0.8px;
             }
 
             #have-account {
-                font-size: 0.67em;
-                margin-top: 13px;
+                font-size: 0.58em;
+                margin-top: 10px;
                 padding-bottom: 0px;
             }
 
             #account-exists {
-                margin-top: -150px;
-                font-size: 0.7em;
+                margin-top: -153px;
+                font-size: 0.6em;
+                margin-left: 15px;
             }
 
             #exclamation {
-                margin: -150px 250px 0px 0px;
-                width: 20px;
+                margin: -272px 215px 0px 0px;
+                width: 15px;
             }
         }
     }
 
     #third {
-        padding: 34px 10px 40px 10px;
+        padding: 42px 10px 34px 10px;
 
         #disclaimer-header {
-            font-size: 1.68em;
+            font-size: 1.4em;
         }
 
         #disclaimer-text {
-            font-size: 0.8em;
-            line-height: 23px;
+            font-size: 0.65em;
+            line-height: 20px;
+            margin-top: -3px;
         }
     }
 
     #fourth {
-        padding-bottom: 43px;
+        padding-bottom: 35px;
 
         .over {
-            font-size: 1.4em;
+            font-size: 1.1em;
         }
 
         .over1 {
-            margin-top: 85px;
+            margin-top: 78px;
         }
 
         .large {
-            font-size: 3em;
+            font-size: 2.5em;
             margin: -13px 5px 0px 0px;
             letter-spacing: 2.5px;
         }
@@ -899,74 +955,93 @@ footer {
         }
 
         .exponent1 {
-            top: -24px;
+            top: -20px;
         }
 
         #assets {
-            font-size: 1.2em;
+            font-size: 1em;
             margin-top: 0px;
             letter-spacing: 1.4px;
-            padding-bottom: 27px;
+            padding-bottom: 20px;
         }
 
         #underline1 {
-            width: 324px;
+            width: 280px;
         }
 
         .over2 {
-            margin-top: 38px;
+            margin-top: 35px;
         }
 
         .exponent2 {
-            top: -25px;
+            top: -20px;
         }
 
         #analyzed {
-            font-size: 1.27em;
-            margin-top: 5px;
+            font-size: 1.05em;
+            margin-top: 7px;
         }
     }
 
     #fifth {
         margin-left: -10px;
-        padding-bottom: 18px;
+        padding-bottom: 145px;
 
         #employees-heading {
-            font-size: 1.4em;
-            margin-top: -43px;
-            line-height: 32px;
-            letter-spacing: 1.4px;
-            padding-bottom: 20px;
+            font-size: 1.1em;
+            margin-top: -50px;
+            line-height: 28px;
+            letter-spacing: 1px;
+            padding-bottom: 5px;
         }
 
         #logo-assets {
-            margin-top: 22px;
+            margin-top: 15px;
         }
 
         li {
-            margin: 0px 27px 17px 27px;
+            position: absolute;
+		    margin-left: auto;
+		    margin-right: auto;
         }
 
-        img {
-            width: 80%;
+        #linkedin{
+        	margin-left: -260px;
+        	width: 85px;
         }
-
-        #cisco {
-            margin-left: 50px;
-            width: 55%;
+        #amazon{
+        	margin-left: -18px;
+        	width: 90px;
+        }
+        #apple{
+        	width: 33px;
+        	margin-top: -5px;
+        	margin-left: 145px;
+        }
+        #cisco{
+        	margin-top: 47px;
+        	margin-left: -110px;
+        	width: 75px;
+        }
+        #oracle{
+        	width: 90px;
+        	margin-top: 60px;
+        	margin-left: 50px;
         }
     }
 
     footer {
         #copywrite {
-            font-size: 0.6em;
-            margin-top: -13px;
+            font-size: 0.1em;
+            margin-top: -15px;
         }
 
+
+
         #small-text {
-            margin-top: -55px;
-            font-size: 0.6em;
-            right: 13px;
+            margin-top: -48px;
+            font-size: 8px;
+            right: 15px;
         }
     }
 }
@@ -974,7 +1049,7 @@ footer {
 /////////////////
 // SMALL PHONE //
 /////////////////
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 411px) {
     #first {
         height: 103px;
 
