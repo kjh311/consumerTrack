@@ -136,6 +136,10 @@ body {
             border-radius: 5px;
         }
 
+        select::-ms-expand {
+		    display: none;
+		}
+
         .alarm-font {
             display: inline-block;
             font-size: 1.07em;
