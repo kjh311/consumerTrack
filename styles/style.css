@@ -45,7 +45,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.second #mobile-text-wrapper {
+#second #mobile-text-wrapper {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
@@ -75,19 +75,19 @@ body {
 .hidden {
   display: none; }
 
-.first {
+#first {
   height: 73px;
   width: 100%;
   border-bottom: solid #d0d0d0 1px;
   position: relative;
   max-width: 1200px; }
-  .first #blooom-logo {
+  #first #blooom-logo {
     top: 10px;
     left: 40px; }
-  .first #banking-rates-logo {
+  #first #banking-rates-logo {
     top: 20px;
     right: 40px; }
-  .first .top-logo {
+  #first .top-logo {
     position: absolute; }
 
 .mockup {
@@ -100,7 +100,7 @@ body {
   opacity: 0.4;
   z-index: 10; }
 
-.second {
+#second {
   padding-bottom: 174px;
   margin: auto;
   position: relative;
@@ -109,46 +109,46 @@ body {
   right: 0;
   border-bottom: solid #d0d0d0 1px;
   text-align: center; }
-  .second #mobile-text-wrapper {
+  #second #mobile-text-wrapper {
     display: none; }
-    .second #mobile-text-wrapper #start-your-free-headline {
+    #second #mobile-text-wrapper #start-your-free-headline {
       font-size: 1.8em;
       margin: 5px 25px 0px 25px;
       color: #4b4b4b;
       letter-spacing: 2.1px;
       line-height: 33px; }
-    .second #mobile-text-wrapper #start-your-free-text {
+    #second #mobile-text-wrapper #start-your-free-text {
       margin-top: 15px;
       font-size: 0.9em;
       color: #a7a7a7; }
-  .second .form-wrapper {
+  #second .form-wrapper {
     left: -10px; }
-  .second .main-form {
+  #second #main-form {
     position: relative;
     top: 67px;
     border: 1px solid #d0d0d0;
     margin: 0 auto;
     max-width: 489px;
     padding-bottom: 60px;
-    -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.05);
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.05); }
-    .second .main-form select {
+    -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.07);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.07); }
+    #second #main-form select {
       -moz-appearance: none;
       -webkit-appearance: none;
       appearance: none;
       outline: none;
       border-radius: 5px; }
-    .second .main-form .alarm-font {
+    #second #main-form .alarm-font {
       display: inline-block;
       font-size: 1.07em;
       margin-top: 40px;
       font-weight: 500;
       max-width: 90%; }
-    .second .main-form .born-on {
+    #second #main-form .born-on {
       display: inline-block;
       margin-top: 40px;
       font-weight: 500; }
-    .second .main-form .drop {
+    #second #main-form .drop {
       background: transparent !important;
       margin-top: 12px;
       height: 43px;
@@ -157,40 +157,40 @@ body {
       font-style: italic;
       font-size: 1.2em;
       padding-left: 6px; }
-    .second .main-form .fa-angle-down {
+    #second #main-form .fa-angle-down {
       position: absolute;
       color: #a7a7a7;
       display: inline-block;
       margin-top: 17px;
       z-index: -100; }
-    .second .main-form .fa1 {
+    #second #main-form .fa1 {
       margin-left: 118px; }
-    .second .main-form .fa2 {
+    #second #main-form .fa2 {
       margin-left: 55px; }
-    .second .main-form .fa3 {
+    #second #main-form .fa3 {
       margin-left: 65px; }
-    .second .main-form .fa4 {
+    #second #main-form .fa4 {
       margin-left: 49px; }
-    .second .main-form .month-drop {
+    #second #main-form #month-drop {
       width: 147px;
       margin-left: 4px; }
-    .second .main-form .day-drop {
+    #second #main-form #day-drop {
       margin-left: 4px;
       width: 78px; }
-    .second .main-form .year-drop {
+    #second #main-form #year-drop {
       margin-left: 3px;
       width: 90px; }
-    .second .main-form .retire-drop {
+    #second #main-form #retire-drop {
       margin-top: 10px;
       width: 78px;
       font-style: normal;
       padding-left: 13px; }
-    .second .main-form .esp {
+    #second #main-form .esp {
       font-size: 2em;
       font-weight: 700;
       margin: 43px 50px 0px 50px;
       line-height: 1.3; }
-    .second .main-form .start-now {
+    #second #main-form #start-now {
       margin-top: 16px;
       height: 49px;
       width: 172px;
@@ -202,7 +202,7 @@ body {
       outline: none;
       font-weight: 200;
       letter-spacing: 1.7px; }
-    .second .main-form .first-name-form {
+    #second #main-form #first-name-form {
       margin-top: 10px;
       width: 400px;
       max-width: 85%;
@@ -212,52 +212,52 @@ body {
       outline: none;
       text-align: center;
       border: 1px solid #d0d0d0; }
-    .second .main-form .name-form {
+    #second #main-form .name-form {
       margin-top: 40px; }
-    .second .main-form .name-form:valid .start-now {
+    #second #main-form .name-form:valid #start-now {
       background: #79b74d; }
-    .second .main-form .name-font {
+    #second #main-form .name-font {
       font-size: 1.15em; }
-  .second .checkup-wrapper {
+  #second .checkup-wrapper {
     height: 635px;
     width: 200px;
     text-align: left; }
-    .second .checkup-wrapper .check-wrapper-inner {
+    #second .checkup-wrapper #check-wrapper-inner {
       margin-top: 105px; }
-    .second .checkup-wrapper .checkup-headline {
+    #second .checkup-wrapper #checkup-headline {
       color: #4b4b4b;
       font-size: 4.4em;
       margin-right: 30px;
       line-height: 1.07;
       margin-top: 35px; }
-      .second .checkup-wrapper .checkup-headline .start {
+      #second .checkup-wrapper #checkup-headline .start {
         letter-spacing: 3px; }
-      .second .checkup-wrapper .checkup-headline .free {
+      #second .checkup-wrapper #checkup-headline .free {
         letter-spacing: 2px; }
-    .second .checkup-wrapper .stacks {
+    #second .checkup-wrapper #stacks {
       font-size: 1.3em;
       margin-top: -13px;
       color: #a7a7a7; }
-    .second .checkup-wrapper .pig-logo {
+    #second .checkup-wrapper #pig-logo {
       display: block;
       margin: 63px auto 0px 32px; }
-  .second #email-form-wrapper {
+  #second #email-form-wrapper {
     display: inline-block;
     margin: 0px 25px 0px 25px;
     padding-bottom: 23px; }
-    .second #email-form-wrapper .first-thing {
+    #second #email-form-wrapper #first-thing {
       margin-top: 38px;
       font-size: 1.9em;
       letter-spacing: 1.3px;
       line-height: 43px;
       color: #4b4b4b; }
-    .second #email-form-wrapper .email-form-text {
+    #second #email-form-wrapper .email-form-text {
       margin: -3px 20px 0px 20px;
       color: #a7a7a7;
       font-size: 1.2em;
       line-height: 29px;
       font-weight: 100; }
-    .second #email-form-wrapper .email-input {
+    #second #email-form-wrapper .email-input {
       margin: 70px 0px 0px 5px;
       color: #a7a7a7;
       height: 52px;
@@ -269,11 +269,11 @@ body {
       font-weight: 100;
       outline-color: transparent;
       outline-style: none; }
-    .second #email-form-wrapper .email-input::-webkit-input-placeholder {
+    #second #email-form-wrapper .email-input::-webkit-input-placeholder {
       color: #d0d0d0; }
-  .second .email-form:valid .email-submit-button {
+  #second .email-form:valid #email-submit-button {
     background: #79b74d; }
-  .second .email-submit-button {
+  #second #email-submit-button {
     outline-color: transparent;
     outline-style: none;
     margin: 72px 0px 0px 2px;
@@ -286,98 +286,98 @@ body {
     letter-spacing: 0.7px;
     font-size: 1.4em;
     border: 1px solid #d0d0d0; }
-  .second #account-exists {
+  #second #account-exists {
     position: relative;
     color: #d90122;
     margin: -160px 0px 0px 10px;
     letter-spacing: 0.1px;
     font-size: 0.87em; }
-    .second #account-exists .sign-in {
+    #second #account-exists .sign-in {
       color: #79b74d; }
-  .second .exclamation {
+  #second #exclamation {
     position: relative;
     margin: -160px 310px 0px 0px; }
-  .second .have-account {
+  #second #have-account {
     margin-top: 15px;
     color: #a7a7a7;
     font-size: 0.84em; }
-    .second .have-account .sign-in {
+    #second #have-account .sign-in {
       color: #79b74d; }
 
-.third {
+#third {
   margin: 107px 55px 0px 57px;
   padding-bottom: 100px;
   border-bottom: 1px solid #d0d0d0; }
-  .third a {
+  #third a {
     color: #79b74d; }
-  .third .disclaimer-header {
+  #third #disclaimer-header {
     font-size: 2em; }
-  .third .disclaimer-text {
+  #third #disclaimer-text {
     margin-top: 23px;
     line-height: 28px;
     color: #a7a7a7; }
 
-.fourth {
+#fourth {
   margin: 0 auto;
   text-align: center;
   border-bottom: 1px solid #d0d0d0;
   max-width: 1090px;
   color: #4b4b4b;
   padding-bottom: 100px; }
-  .fourth .over {
+  #fourth .over {
     font-size: 2em; }
-  .fourth .over1 {
+  #fourth .over1 {
     margin-top: 114px; }
-  .fourth .over2 {
+  #fourth .over2 {
     margin-top: 70px; }
-  .fourth .large {
+  #fourth .large {
     font-size: 7em;
     font-weight: 500; }
-  .fourth .billion {
+  #fourth .billion {
     margin: -15px 0px 0px 24px;
     letter-spacing: 3.5px; }
-  .fourth .exponent {
+  #fourth .exponent {
     color: #a7a7a7;
     font-size: 0.5em;
     position: relative;
     top: -52px;
     left: -7px; }
-  .fourth .assets {
+  #fourth #assets {
     font-size: 1.95em;
     margin-top: 31px;
     letter-spacing: 1.5px;
     padding-bottom: 58px; }
-  .fourth .underline1 {
+  #fourth #underline1 {
     border-bottom: 1px solid #d0d0d0;
     width: 390px;
     margin: 0 auto; }
-  .fourth .underline2 {
+  #fourth .underline2 {
     border-bottom: 1px solid #d0d0d0;
     width: 1090px;
     margin: 0 auto; }
-  .fourth .hundred-thousand {
+  #fourth .hundred-thousand {
     letter-spacing: 1.7px;
     margin: -10px 0px 0px 25px; }
-  .fourth .exponent2 {
+  #fourth .exponent2 {
     top: -65px;
     left: 6px; }
-  .fourth .analyzed {
+  #fourth #analyzed {
     font-size: 1.95em;
     margin-top: 23px;
     letter-spacing: 0.6px; }
 
-.fifth {
+#fifth {
   margin: 0 auto;
   text-align: center;
   max-width: 1090px;
   color: #4b4b4b;
   padding-bottom: 60px; }
-  .fifth ul {
+  #fifth ul {
     margin-top: 50px; }
-  .fifth li {
+  #fifth li {
     display: inline-block;
     margin: 0px 51px 0px 51px; }
-  .fifth .employees-heading {
+  #fifth #employees-heading {
     font-size: 2.7em;
     font-weight: 500;
     margin-top: 97px;
@@ -395,14 +395,14 @@ footer {
   margin: 30px auto 0px auto;
   left: 0;
   right: 0; }
-  footer .copywrite {
+  footer #copywrite {
     text-align: center;
     margin-left: -6px;
     letter-spacing: 0.1px;
     font-size: 0.7em; }
-    footer .copywrite .copy-symbol {
+    footer #copywrite #copy-symbol {
       font-size: 1.4em; }
-  footer .small-text {
+  footer #small-text {
     position: absolute;
     right: 5px;
     font-size: .7em;
@@ -412,446 +412,446 @@ footer {
   .container-fluid {
     padding: 0; }
 
-  .first {
+  #first {
     height: 104px;
     width: 100vw;
     position: absolute;
     right: 0px; }
-    .first #blooom-logo {
+    #first #blooom-logo {
       top: 18px;
       margin: 0px auto 0px auto;
       left: 0;
       right: 0; }
-    .first #banking-rates-logo {
+    #first #banking-rates-logo {
       margin: 0px auto 0px auto;
       left: 0;
       right: 0;
       z-index: -10;
       margin-top: 42px; }
 
-  .second {
+  #second {
     top: 104px;
     padding-bottom: 70px; }
-    .second .main-form {
+    #second #main-form {
       top: 50px;
       width: 400px;
       right: -13px; }
-      .second .main-form .esp {
+      #second #main-form .esp {
         font-size: 1.85em;
         margin: 50px 2px 0px 2px;
         letter-spacing: 0.8px;
         line-height: 43px; }
-      .second .main-form .alarm-font {
+      #second #main-form .alarm-font {
         margin: 40px 40px 0px 40px; }
-      .second .main-form .start-now {
+      #second #main-form #start-now {
         margin-top: 20px; }
-    .second #email-wrapper {
+    #second #email-wrapper {
       margin-top: -6px; }
-    .second #email-form-wrapper {
+    #second #email-form-wrapper {
       margin: 0;
       padding-top: 18px;
       padding-bottom: 35px; }
-      .second #email-form-wrapper .email-form-text {
+      #second #email-form-wrapper .email-form-text {
         font-size: 1em;
         margin: -7px 10px 0px 10px;
         letter-spacing: 0.5px; }
-      .second #email-form-wrapper #email-input {
+      #second #email-form-wrapper #email-input {
         margin-top: 80px;
         max-width: 80%; }
-      .second #email-form-wrapper .email-submit-button {
+      #second #email-form-wrapper #email-submit-button {
         margin-top: 80px; }
-      .second #email-form-wrapper .have-account {
+      #second #email-form-wrapper #have-account {
         margin-top: 15px; }
-      .second #email-form-wrapper #account-exists {
+      #second #email-form-wrapper #account-exists {
         margin: -167px 0px 0px 20px; }
-      .second #email-form-wrapper .exclamation {
+      #second #email-form-wrapper #exclamation {
         margin-top: -167px;
         margin-left: 15px; }
-    .second .checkup-wrapper {
+    #second .checkup-wrapper {
       height: 723px;
       padding-right: 0px; }
-      .second .checkup-wrapper .checkup-headline {
+      #second .checkup-wrapper #checkup-headline {
         font-size: 4em;
         margin: -15px 0px 0px 40px;
         line-height: 75px;
         letter-spacing: 1px; }
-      .second .checkup-wrapper .stacks {
+      #second .checkup-wrapper #stacks {
         font-size: 1em;
         margin: -20px 0px 0px 43px;
         letter-spacing: 0.3px; }
-      .second .checkup-wrapper .pig-logo {
+      #second .checkup-wrapper #pig-logo {
         position: absolute;
         width: 360px;
         margin-left: -40px;
         bottom: 5px;
         margin-left: 20px; }
 
-  .third {
+  #third {
     margin: 0 auto;
     padding: 80px 5px 90px 5px;
     margin-top: 110px; }
-    .third .disclaimer-text {
+    #third #disclaimer-text {
       margin-top: 20px; }
 
-  .fourth {
+  #fourth {
     margin-top: -30px;
     padding-bottom: 95px; }
 
-  .fifth {
+  #fifth {
     padding-bottom: 60px; }
-    .fifth .employees-heading {
+    #fifth #employees-heading {
       font-size: 2.5em;
       margin: 0px 40px 0px 40px;
       padding-top: 92px;
       letter-spacing: 2.7px;
       line-height: 58px; }
-    .fifth ul {
+    #fifth ul {
       margin-top: 30px; }
-    .fifth li {
+    #fifth li {
       margin: 20px 50px 20px 50px; }
 
   footer {
     margin-top: 0px;
     width: 95%; }
-    footer .copywrite {
+    footer #copywrite {
       margin-top: -8px; }
-    footer .small-text {
+    footer #small-text {
       margin-top: -63px; } }
 @media only screen and (max-width: 767px) {
-  .first {
+  #first {
     height: 88px; }
-    .first #blooom-logo {
+    #first #blooom-logo {
       top: 18px;
       margin: -10px auto 0px auto;
       width: 135px;
       left: 0;
       right: 0; }
-    .first #banking-rates-logo {
+    #first #banking-rates-logo {
       margin: 33px auto 0px auto;
       left: 0;
       right: 0;
       z-index: -10;
       width: 160px; }
 
-  .second {
+  #second {
     padding-bottom: 110px; }
-    .second #mobile-text-wrapper {
+    #second #mobile-text-wrapper {
       display: inline-block; }
-    .second .main-form {
+    #second #main-form {
       margin-top: 75px;
       width: 336px;
       right: -6px;
       padding-bottom: 50px; }
-      .second .main-form .esp {
+      #second #main-form .esp {
         font-size: 1.5em;
         font-weight: 300;
         margin: 40px 20px 0px 20px;
         letter-spacing: 1.5px;
         line-height: 36px; }
-      .second .main-form .name-font {
+      #second #main-form .name-font {
         font-size: 0.95em;
         margin-top: -20px; }
-      .second .main-form .first-name-form {
+      #second #main-form #first-name-form {
         margin-top: 0px;
         height: 37px; }
-      .second .main-form .drop {
+      #second #main-form .drop {
         height: 35px;
         margin-top: 10px;
         font-size: 0.9em;
         padding-left: 5px; }
-      .second .main-form .fa {
+      #second #main-form .fa {
         margin: 13px 0px 0px 45px;
         font-size: 1.8em; }
-      .second .main-form .fa1 {
+      #second #main-form .fa1 {
         margin-left: 100px; }
-      .second .main-form .born-on {
+      #second #main-form .born-on {
         margin-top: 33px;
         font-size: 0.9em; }
-      .second .main-form .month-drop {
+      #second #main-form #month-drop {
         width: 120px;
         margin-left: 8px; }
-      .second .main-form .day-drop {
+      #second #main-form #day-drop {
         width: 65px; }
-      .second .main-form .year-drop {
+      #second #main-form #year-drop {
         width: 75px; }
-      .second .main-form .retire-drop {
+      #second #main-form #retire-drop {
         width: 70px;
         padding-left: 13px;
         font-size: 1.1em; }
-      .second .main-form .alarm-font {
+      #second #main-form .alarm-font {
         font-size: 0.9em;
         margin-top: 32px; }
-      .second .main-form .start-now {
+      #second #main-form #start-now {
         margin-top: 13px;
         width: 146px;
         height: 40px;
         font-size: 1em;
         letter-spacing: 0.8px; }
-    .second #email-form-wrapper {
+    #second #email-form-wrapper {
       margin-top: 5px;
       width: 335px;
       height: 510px;
       padding-top: 0px;
       padding-bottom: 50px; }
-      .second #email-form-wrapper .first-thing {
+      #second #email-form-wrapper #first-thing {
         font-size: 1.5em;
         line-height: 35px;
         margin-top: 43px;
         letter-spacing: 0.7px; }
-      .second #email-form-wrapper .email-form-text {
+      #second #email-form-wrapper .email-form-text {
         font-size: 0.9em;
         margin: -10px 32px 0px 32px;
         line-height: 25px;
         letter-spacing: 0px; }
-      .second #email-form-wrapper #email-input {
+      #second #email-form-wrapper #email-input {
         margin: 55px 0px 0px 7px;
         height: 46px;
         width: 320px;
         font-size: 1em; }
-      .second #email-form-wrapper .email-submit-button {
+      #second #email-form-wrapper #email-submit-button {
         margin-top: 74px;
         width: 146px;
         height: 40px;
         font-size: 1em;
         letter-spacing: 0.8px; }
-      .second #email-form-wrapper .have-account {
+      #second #email-form-wrapper #have-account {
         font-size: 0.67em;
         margin-top: 13px;
         padding-bottom: 0px; }
-      .second #email-form-wrapper #account-exists {
+      #second #email-form-wrapper #account-exists {
         margin-top: -150px;
         font-size: 0.7em; }
-      .second #email-form-wrapper .exclamation {
+      #second #email-form-wrapper #exclamation {
         margin: -150px 250px 0px 0px;
         width: 20px; }
 
-  .third {
+  #third {
     padding: 34px 10px 40px 10px; }
-    .third .disclaimer-header {
+    #third #disclaimer-header {
       font-size: 1.68em; }
-    .third .disclaimer-text {
+    #third #disclaimer-text {
       font-size: 0.8em;
       line-height: 23px; }
 
-  .fourth {
+  #fourth {
     padding-bottom: 43px; }
-    .fourth .over {
+    #fourth .over {
       font-size: 1.4em; }
-    .fourth .over1 {
+    #fourth .over1 {
       margin-top: 85px; }
-    .fourth .large {
+    #fourth .large {
       font-size: 3em;
       margin: -13px 5px 0px 0px;
       letter-spacing: 2.5px; }
-    .fourth .exponent {
+    #fourth .exponent {
       left: 5px; }
-    .fourth .exponent1 {
+    #fourth .exponent1 {
       top: -24px; }
-    .fourth .assets {
+    #fourth #assets {
       font-size: 1.2em;
       margin-top: 0px;
       letter-spacing: 1.4px;
       padding-bottom: 27px; }
-    .fourth .underline1 {
+    #fourth #underline1 {
       width: 324px; }
-    .fourth .over2 {
+    #fourth .over2 {
       margin-top: 38px; }
-    .fourth .exponent2 {
+    #fourth .exponent2 {
       top: -25px; }
-    .fourth .analyzed {
+    #fourth #analyzed {
       font-size: 1.27em;
       margin-top: 5px; }
 
-  .fifth {
+  #fifth {
     margin-left: -10px;
     padding-bottom: 18px; }
-    .fifth .employees-heading {
+    #fifth #employees-heading {
       font-size: 1.4em;
       margin-top: -43px;
       line-height: 32px;
       letter-spacing: 1.4px;
       padding-bottom: 20px; }
-    .fifth .logo-assets {
+    #fifth #logo-assets {
       margin-top: 22px; }
-    .fifth li {
+    #fifth li {
       margin: 0px 27px 17px 27px; }
-    .fifth img {
+    #fifth img {
       width: 80%; }
-    .fifth #cisco {
+    #fifth #cisco {
       margin-left: 50px;
       width: 55%; }
 
-  footer .copywrite {
+  footer #copywrite {
     font-size: 0.6em;
     margin-top: -13px; }
-  footer .small-text {
+  footer #small-text {
     margin-top: -55px;
     font-size: 0.6em;
     right: 13px; } }
 @media only screen and (max-width: 480px) {
-  .first {
+  #first {
     height: 103px; }
-    .first #blooom-logo {
+    #first #blooom-logo {
       width: 160px;
       margin-top: -5px; }
-    .first #banking-rates-logo {
+    #first #banking-rates-logo {
       width: 195px;
       margin-top: 40px; }
 
-  .second {
+  #second {
     padding-top: 15px;
     padding-bottom: 100px; }
-    .second #start-your-free-headline {
+    #second #start-your-free-headline {
       margin: 0px !important;
       line-height: 37px !important;
       letter-spacing: 1.5px !important; }
-    .second #start-your-free-text {
+    #second #start-your-free-text {
       margin-top: 18px !important;
       letter-spacing: 0.5px !important; }
-    .second .esp {
+    #second .esp {
       margin: 40px 0px 0px 0px !important; }
-    .second .name-font {
+    #second .name-font {
       font-size: 1.15em !important; }
-    .second .main-form {
+    #second #main-form {
       margin-top: 100px !important;
       width: 300px;
       height: 675px; }
-    .second .first-name-form {
+    #second #first-name-form {
       margin: 13px 0px 0px 5px !important;
       width: 320px !important;
       max-width: 87% !important;
       height: 45px !important; }
-    .second .born-on {
+    #second .born-on {
       font-size: 1.1em !important; }
-    .second .drop {
+    #second .drop {
       height: 45px !important;
       font-size: 1.3em !important;
       padding-left: 10px !important;
       margin-top: 7px !important; }
-    .second .month-drop {
+    #second #month-drop {
       margin-top: 10px !important;
       width: 260px !important; }
-    .second .day-drop {
+    #second #day-drop {
       width: 126px !important; }
-    .second .year-drop {
+    #second #year-drop {
       width: 126px !important;
       padding-left: 15px !important; }
-    .second .fa {
+    #second .fa {
       margin-top: 17px !important; }
-    .second .fa1 {
+    #second .fa1 {
       margin-left: 233px !important; }
-    .second .fa2 {
+    #second .fa2 {
       margin: 70px 0px 0px -170px !important; }
-    .second .fa3 {
+    #second .fa3 {
       margin: 15px 0px 0px 100px !important; }
-    .second .alarm-font {
+    #second .alarm-font {
       font-size: 1.1em !important;
       margin: 32px 0px 0px 0px !important;
       letter-spacing: 1.5px !important; }
-    .second .retire-drop {
+    #second #retire-drop {
       margin-top: 10px !important;
       width: 76px !important;
       height: 42px !important; }
-    .second .start-now {
+    #second #start-now {
       margin-top: 16px !important;
       width: 175px !important;
       height: 50px !important;
       font-size: 1.2em !important; }
-    .second #email-form-wrapper {
+    #second #email-form-wrapper {
       padding-top: 52px;
       width: 300px;
       height: 675px; }
-      .second #email-form-wrapper .first-thing {
+      #second #email-form-wrapper #first-thing {
         font-size: 1.3em !important;
         margin: 0px 25px 0px 25px;
         letter-spacing: 2px; }
-      .second #email-form-wrapper .email-form-text {
+      #second #email-form-wrapper .email-form-text {
         font-size: 1em;
         line-height: 29px;
         margin: 15px 20px 0px 20px; }
-      .second #email-form-wrapper .email-input {
+      #second #email-form-wrapper .email-input {
         margin-top: 49px !important;
         height: 52px !important;
         width: 320px !important;
         max-width: 86% !important; }
-      .second #email-form-wrapper #account-exists {
+      #second #email-form-wrapper #account-exists {
         font-size: 0.9em !important;
         margin-left: 57px !important;
         top: -28px;
         text-align: left; }
-      .second #email-form-wrapper .exclamation {
+      #second #email-form-wrapper #exclamation {
         width: 20px !important;
         left: 20px;
         top: -30px; }
-      .second #email-form-wrapper .email-submit-button {
+      #second #email-form-wrapper #email-submit-button {
         margin-top: 90px;
         width: 170px;
         height: 48px;
         font-size: 1.3em; }
-      .second #email-form-wrapper .have-account {
+      #second #email-form-wrapper #have-account {
         font-size: 0.85em;
         margin-top: 15px; }
 
-  .third {
+  #third {
     padding: 47px 0px 36px 0px;
     margin: 107px -5px 0px -5px; }
-    .third .disclaimer-header {
+    #third #disclaimer-header {
       font-size: 1.9em;
       letter-spacing: 1px; }
-    .third .disclaimer-text {
+    #third #disclaimer-text {
       font-size: 0.9em;
       letter-spacing: 0.5px;
       line-height: 28px; }
 
-  .fourth {
+  #fourth {
     padding-bottom: 25px;
     width: 300px; }
-    .fourth .over {
+    #fourth .over {
       font-size: 1.5em; }
-    .fourth .over1 {
+    #fourth .over1 {
       margin-top: 68px; }
-    .fourth .large {
+    #fourth .large {
       font-size: 3.7em; }
-    .fourth .billion {
+    #fourth .billion {
       margin-top: -10px;
       line-height: 80px; }
-    .fourth .exponent {
+    #fourth .exponent {
       margin-right: -20px; }
-    .fourth .exponent1 {
+    #fourth .exponent1 {
       top: -108px; }
-    .fourth .exponent2 {
+    #fourth .exponent2 {
       top: -28px; }
-    .fourth .assets {
+    #fourth #assets {
       font-size: 1.5em;
       margin: 5px 20px 0px 20px;
       letter-spacing: 1px;
       line-height: 33px; }
-    .fourth .underline1 {
+    #fourth #underline1 {
       padding-top: 50px;
       width: 200px; }
-    .fourth .analyzed {
+    #fourth #analyzed {
       font-size: 1.5em;
       margin-top: 10px; }
 
-  .fifth {
+  #fifth {
     padding: 20px 0px 5px 0px; }
-    .fifth .employees-heading {
+    #fifth #employees-heading {
       font-size: 1.7em;
       margin: -73px 30px 0px 30px;
       line-height: 38px; }
-    .fifth .logo-assets {
+    #fifth #logo-assets {
       margin-top: -10px; }
-    .fifth img {
+    #fifth img {
       width: 100%; }
-    .fifth li {
+    #fifth li {
       margin: 23px 10px 17px 10px; }
-    .fifth #cisco {
+    #fifth #cisco {
       width: 70%; }
 
-  footer .copywrite {
+  footer #copywrite {
     font-size: 0.7em;
     margin-top: 7px; }
-  footer .small-text {
+  footer #small-text {
     font-size: 0.7em;
     margin: -75px auto 0px auto;
     right: 0;
